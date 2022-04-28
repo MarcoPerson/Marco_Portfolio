@@ -1,11 +1,18 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { ThemeContext } from '../darkcontext';
 import './About.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About(props) {
     const theme = useContext(ThemeContext);
+
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    },[])
+
     return (
-        <div className='about'>
+        <div className='about' data-aos="fade-left">
             <div className="about-left">
                 <div className="about-left-wrapper">
                     <div className="about-bg" style={{backgroundColor: theme.state.darkMode && "#ccc"}}>

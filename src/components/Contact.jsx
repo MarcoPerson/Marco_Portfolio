@@ -1,9 +1,12 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../darkcontext';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Contact(props) {
+
     const formRef = useRef();
     const [send, setSend] = useState(false);
     const theme = useContext(ThemeContext);
@@ -21,9 +24,13 @@ function Contact(props) {
                 console.log(error.text);
             });
     }
+    
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    },[])
 
     return (
-        <div className='contact'>
+        <div className='contact' data-aos = "fade-up">
             <div className="contact-bg"></div>
             <div className="contact-wrapper">
                 <div className="contact-left">

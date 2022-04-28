@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function Header(props) {
+    useEffect(() => {
+        AOS.init({duration: 3000});
+    },[])
     return (
-        <div className='intro'>
+        <div className='intro' data-aos="fade-down">
             <div className="intro-left">
                 <div className="intro-left-wrapper">
                     <h2 className="intro-text">
