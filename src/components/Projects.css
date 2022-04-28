@@ -31,9 +31,8 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
     .projects-title h1{
-        font-size: 30px;
         margin-top: 30px;
     }
     .projects-title p{
@@ -42,8 +41,9 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     .projects-title h1{
+        font-size: 30px;
         margin-top: 30px;
     }
     .projects-title p{

@@ -79,6 +79,7 @@
     width: 80%;
     padding: 20px;
     font-size: 20px;
+    height: 70px;
 }
 
 .contact-form button{
@@ -102,6 +103,50 @@
     color: #59b256;
     margin-top: 10px;
 }
+
+
+
+@media screen and (max-width : 768px) and (min-width : 481px){
+    .contact-wrapper{
+        margin: 0;
+    }
+
+    .contact-left h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .contact-info>div{
+        margin: 15px 0;
+        font-size: 15px;
+    }
+
+    .contact-info img{
+        height: 40px;
+        width: 40px;
+        margin-right: 20px;
+    }
+
+    .contact-intro{
+        font-size: 15px;
+    }
+
+    .contact-form input{
+        font-size: 15px;
+    }
+
+    .contact-form textarea{
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .contact-form button{
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
 
 @media screen and (max-width : 480px){
     .contact{
@@ -149,47 +194,6 @@
         width: 30%;
         height: 20px;
         margin: 10px 10px;
-    }
-
-    .contact-form textarea{
-        height: 50px;
-        font-size: 15px;
-    }
-
-    .contact-form button{
-        padding: 5px 10px;
-        font-size: 20px;
-        font-weight: 600;
-    }
-}
-
-@media screen and (max-width : 768px){
-    .contact-wrapper{
-        margin: 0;
-    }
-
-    .contact-left h1{
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .contact-info>div{
-        margin: 15px 0;
-        font-size: 15px;
-    }
-
-    .contact-info img{
-        height: 40px;
-        width: 40px;
-        margin-right: 20px;
-    }
-
-    .contact-intro{
-        font-size: 15px;
-    }
-
-    .contact-form input{
-        font-size: 15px;
     }
 
     .contact-form textarea{

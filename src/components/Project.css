@@ -39,16 +39,16 @@
 }
 
 
-@media screen and (max-width: 480px){
-    .project{
-        width: 40%;
-        height: 25vh;
-    }
-}
-
 @media screen and (max-width: 768px){
     .project{
         width: 40%;
         height: 40vh;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .project{
+        width: 40%;
+        height: 25vh;
     }
 }
