@@ -38,15 +38,15 @@ function Contact(props) {
                     <div className="contact-info">
                         <div className="contact-tel">
                             <img src="/assets/tel.png" alt="Tel Icon" className="tel" />
-                            +33 7 55 88 62 54
+                            <a style={{textDecoration:"none"}} href="tel:+33 7 55 88 62 54">+33 7 55 88 62 54</a>
                         </div>
                         <div className="contact-mail">
                             <img src="/assets/email.png" alt="Email Icon" className="tel" />
-                            merveillesagbeti@gmail.com
+                            <a style={{textDecoration:"none"}} href="mailto:merveillesagbeti@gmail.com">merveillesagbeti@gmail.com</a>
                         </div>
                         <div className="contact-place">
                             <img src="/assets/map.png" alt="Place Icon" className="tel" />
-                            7 allée des sciences appliquées, Toulouse
+                            <a style={{textDecoration:"none"}} href="https://www.google.com/maps/place/7+All.+des+sciences+Appliqu%C3%A9es,+31400+Toulouse/@43.5708332,1.4671979,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc4764903479:0xfaa767a39da5780!8m2!3d43.5708332!4d1.4693866">7 allée des sciences appliquées, Toulouse</a>
                         </div>
                     </div>
                 </div>
@@ -56,10 +56,10 @@ function Contact(props) {
                         Get in touch. Always available for your projects. You have the right project? Come along me.
                     </div>
                     <form className='contact-form' ref={formRef} onSubmit={sendMail}>
-                        <input style={{backgroundColor: theme.state.darkMode && "#333"}} type="text" name="username" id="" className="form-name" placeholder='Your Name' />
-                        <input style={{backgroundColor: theme.state.darkMode && "#333"}} type="text" name="subject" id="" className="form-subject" placeholder='The Subject' />
-                        <input style={{backgroundColor: theme.state.darkMode && "#333"}} type="email" name="email" id="" className="form-email" placeholder='Your Email' />
-                        <textarea style={{backgroundColor: theme.state.darkMode && "#333"}} name="message" id="" cols="30" rows="5" placeholder='Your Message'></textarea>
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="username" id="" className="form-name" placeholder='Your Name' />
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="subject" id="" className="form-subject" placeholder='The Subject' />
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="email" name="email" id="" className="form-email" placeholder='Your Email' />
+                        <textarea style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} name="message" id="" cols="30" rows="5" placeholder='Your Message'></textarea>
                         <br />
                         <button style={{backgroundColor: theme.state.darkMode && "#333"}} type='submit' className='form-buttom'>Send</button>
                         {send && <div className='send-success'> Your message has been sent !!</div>}

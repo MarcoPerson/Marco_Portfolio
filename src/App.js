@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 import Toggle from './components/Toggle';
 import { ThemeContext } from './darkcontext';
 
@@ -14,6 +15,7 @@ function App() {
       <Toggle />
       <Header />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </div>

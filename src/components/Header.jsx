@@ -16,7 +16,7 @@ function Header(props) {
                         Hello, My Name is
                     </h2>
                     <h1 className="intro-name">
-                        Merveiles AGBETI-MESSAN
+                        Merveiles <br className='introname-cutter' /> AGBETI-MESSAN
                     </h1>
                     <div className="intro-title">
                         <div className="intro-title-wrapper">
@@ -25,9 +25,6 @@ function Header(props) {
                             </div>
                             <div className="intro-title-item">
                                 Engineer Student
-                            </div>
-                            <div className="intro-title-item">
-                                Nature Lover
                             </div>
                         </div>
                     </div>

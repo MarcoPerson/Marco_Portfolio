@@ -105,8 +105,14 @@
 }
 
 
+@media screen and (max-width: 1200px){
+    .contact-left h1{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
 
-@media screen and (max-width : 768px) and (min-width : 481px){
+@media screen and (max-width : 1000px) and (min-width : 481px){
     .contact-wrapper{
         margin: 0;
     }
@@ -190,7 +196,7 @@
         margin-left: 40px;
     }
     .contact-form input{
-        font-size: 15px;
+        font-size: 10px;
         width: 30%;
         height: 20px;
         margin: 10px 10px;
@@ -198,7 +204,7 @@
 
     .contact-form textarea{
         height: 50px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .contact-form button{
