@@ -34,10 +34,7 @@
 
 .intro-name{
     font-size: 60px;
-}
-
-.introname-cutter{
-    display: none;
+    line-height:  100%;
 }
 
 .intro-title-wrapper{
@@ -103,9 +100,6 @@
 @media screen and (max-width : 480px){
     .intro{
         flex-direction: column;
-    }
-    .introname-cutter{
-        display: block;
     }
     .intro-desc{
         display: none;
