@@ -1,6 +1,7 @@
 .intro{
     display: flex;
     height: 100vh;
+    margin-bottom: 5px;
 }
 
 .intro-left{

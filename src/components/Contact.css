@@ -1,7 +1,7 @@
 .contact{
     user-select: none;
     font-size: 20px;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -83,6 +83,8 @@
 }
 
 .contact-form button{
+    display: block;
+    margin-top: 10px;
     padding: 10px 20px;
     font-size: 20px;
     font-weight: 600;
@@ -159,11 +161,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .contact-wrapper{
         height: auto;
-        padding-top: 30px;
+        padding-top: 10px;
         flex-direction: column;
     }
 
@@ -175,7 +177,7 @@
 
     .contact-left h1{
         padding-bottom: 20px;
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
     }
 
@@ -195,19 +197,26 @@
         flex: auto;
         margin-left: 40px;
     }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
     .contact-form input{
-        font-size: 10px;
-        width: 30%;
+        font-size: 15px;
+        width: 80%;
         height: 20px;
         margin: 10px 10px;
     }
 
     .contact-form textarea{
         height: 50px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .contact-form button{
+        display: block;
+        width: 50%;
         padding: 5px 10px;
         font-size: 20px;
         font-weight: 600;

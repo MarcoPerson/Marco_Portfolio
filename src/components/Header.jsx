@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import './Header.css';
 import AOS from 'aos';
+import { ThemeContext } from '../darkcontext';
+
 import 'aos/dist/aos.css';
 
 
 function Header(props) {
+    const theme = useContext(ThemeContext);
     useEffect(() => {
         AOS.init({duration: 3000});
     },[])
@@ -38,7 +41,7 @@ function Header(props) {
                     height="75"
                     viewBox="0 0 75 75"
                     fill="none"
-                    stroke="black"
+                    stroke={theme.state.darkMode ? "white" : "black"}
                     className="intro-scroll"
                     xmlns="http://www.w3.org/2000/svg"
                 >
