@@ -17,10 +17,34 @@
 .projects-title h1{
     font-size: 50px;
     font-weight: 400;
+    text-align: center;
 }
 
 .projects-title p{
     color: #555;
+    text-align: center;
+}
+
+.projects-github{
+    text-decoration: none;
+}
+
+.projects-github button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px #aaa;
+    transition: background-color 1s ease-in-out;
+    color: #151515;
+    font-weight: 600;
+}
+
+.projects-github button:hover{
+    background-color: #59b256;
 }
 
 .projects-list{

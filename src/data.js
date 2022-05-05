@@ -31,8 +31,8 @@ export const projectsData = [
     },
     {
         id : 5,
-        img : "/assets/github.png",
-        link : "https://github.com/MarcoPerson",
-        alt : "My Github Image"        
+        img : "/assets/movies.png",
+        link : "https://marco-movies.pages.dev/",
+        alt : "My Movies Image"        
     }
 ]

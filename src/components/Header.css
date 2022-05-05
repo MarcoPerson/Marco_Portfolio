@@ -4,6 +4,33 @@
     margin-bottom: 5px;
 }
 
+.download-resume{
+    position: fixed;
+    top: 20px;
+    left: 150px;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.download-resume button{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px #aaa;
+    transition: background-color 1s ease-in-out;
+    color: #151515;
+    font-weight: 600;
+}
+
+.download-resume button:hover{
+    background-color: #59b256;
+}
+
 .intro-left{
     flex: 1;
     display: flex;

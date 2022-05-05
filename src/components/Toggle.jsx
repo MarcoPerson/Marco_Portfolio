@@ -11,7 +11,7 @@ function Toggle(props) {
         <div className='toggle' onClick={handleClick}>
             <img src="/assets/sun.png" alt="Sun Icon" className="toggleimage" />
             <img src="/assets/moon.png" alt="Moon Icon" className="toggleimage" />
-            <div style={{left : theme.state.darkMode ? 0 : "50px", backgroundColor : theme.state.darkMode && "#ccc"}} className="togglehider"></div>
+            <div style={{left : theme.state.darkMode ? 0 : "50px", backgroundColor : theme.state.darkMode ? "#fff" : "#eee"}} className="togglehider"></div>
         </div>
     );
 }
