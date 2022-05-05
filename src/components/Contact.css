@@ -50,6 +50,14 @@
     margin-right: 30px;
 }
 
+.contact-info a{
+	color: #555;
+}
+
+.contact-info a:hover{
+	color: #59b256;
+}
+
 .contact-intro{
     color: #555;
     margin-bottom: 20px;
