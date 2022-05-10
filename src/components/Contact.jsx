@@ -20,6 +20,11 @@ function Contact(props) {
                 setTimeout(() => {
                     setSend(false);
                 }, 5000);
+                const values = document.querySelectorAll("#U, #S, #E, #M");
+                
+                values.forEach((element) => {
+                    element.value = "";
+                })                
             }, (error) => {
                 console.log(error.text);
             });
@@ -56,10 +61,10 @@ function Contact(props) {
                         Get in touch. Always available for your projects. You have the right project? Come along me.
                     </div>
                     <form className='contact-form' ref={formRef} onSubmit={sendMail}>
-                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="username" id="" className="form-name" placeholder='Your Name' />
-                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="subject" id="" className="form-subject" placeholder='The Subject' />
-                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="email" name="email" id="" className="form-email" placeholder='Your Email' />
-                        <textarea style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} name="message" id="" cols="30" rows="5" placeholder='Your Message'></textarea>
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="username" id="U" className="form-name" placeholder='Your Name' />
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="text" name="subject" id="S" className="form-subject" placeholder='The Subject' />
+                        <input style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} type="email" name="email" id="E" className="form-email" placeholder='Your Email' />
+                        <textarea style={{backgroundColor: theme.state.darkMode && "#333", color: theme.state.darkMode && "white"}} name="message" id="M" cols="30" rows="5" placeholder='Your Message'></textarea>
                         <button style={{backgroundColor: theme.state.darkMode && "#333"}} type='submit' className='form-buttom'>Send</button>
                         {send && <div className='send-success'> Your message has been sent !!</div>}
                     </form>
