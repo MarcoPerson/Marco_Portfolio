@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./Cursus.css";
@@ -79,7 +79,7 @@ Internet access time required</p>
             <ul>
               <li>
                 <div className="timeline">
-                  <h3 className="timeline-date">September 2021 - June 2022</h3>
+                  <h3 className="timeline-date">September 2021 - Today</h3>
                   <h3 className="timeline-place">Toulouse - FRANCE</h3>
                 </div>
                 <h1 className="timeline-title">
