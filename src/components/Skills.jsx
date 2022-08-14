@@ -70,6 +70,10 @@ function Skills(props) {
                                     <img src="/assets/icons/javascript_logo.png" title='JavaScript' alt="#" className="skills-image" />
                                     <p>JavaScript</p>
                                 </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/mysql_logo.png" title='MySQL' alt="#" className="skills-image" />
+                                    <p>MySQL</p>
+                                </div>
                             </div>
                         </div>
                         <div className="skills-a">
@@ -80,12 +84,16 @@ function Skills(props) {
                                     <p>ReactJS</p>
                                 </div>
                                 <div className="skills-content">
-                                    <img src="/assets/icons/postgresql_logo.png" title='PostgreSQL' alt="#" className="skills-image" />
-                                    <p>PostgreSQL</p>
+                                    <img src="/assets/icons/nextjs_logo.png" title='NextJS' alt="#" className="skills-image" />
+                                    <p>NextJS</p>
                                 </div>
                                 <div className="skills-content">
-                                    <img src="/assets/icons/mysql_logo.png" title='MySQL' alt="#" className="skills-image" />
-                                    <p>MySQL</p>
+                                    <img src="/assets/icons/mongodb_logo.png" title='MongoDB' alt="#" className="skills-image" />
+                                    <p>MongoDB</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/postgresql_logo.png" title='PostgreSQL' alt="#" className="skills-image" />
+                                    <p>PostgreSQL</p>
                                 </div>
                             </div>
                         </div>

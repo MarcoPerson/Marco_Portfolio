@@ -33,8 +33,8 @@ function Header(props) {
                         </div>
                     </div>
                     <div className="intro-desc">
-                        I create web sites and web site components for customers <br /> and in my free times.
-                        I'm a student at INSA Toulouse in <br /> the 1st year of IT engineering.
+                        I create Websites and Websites components for customers <br /> in my free time.
+                        I'm a student at INSA Toulouse in <br /> the 4th year of IT engineering.
                     </div>
                 </div>
                 <svg

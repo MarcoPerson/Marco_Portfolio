@@ -34,5 +34,11 @@ export const projectsData = [
         img : "/assets/movies.png",
         link : "https://marco-movies.pages.dev/",
         alt : "My Movies Image"        
+    },
+    {
+        id : 6,
+        img : "/assets/images-sharing.png",
+        link : "https://images-sharing.vercel.app/",
+        alt : "My Images Image"        
     }
 ]

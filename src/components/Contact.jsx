@@ -51,7 +51,7 @@ function Contact(props) {
                         </div>
                         <div className="contact-place">
                             <img src="/assets/map.png" alt="Place Icon" className="tel" />
-                            <a style={{textDecoration:"none"}} href="https://www.google.com/maps/place/7+All.+des+sciences+Appliqu%C3%A9es,+31400+Toulouse/@43.5708332,1.4671979,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc4764903479:0xfaa767a39da5780!8m2!3d43.5708332!4d1.4693866">7 allée des sciences appliquées, Toulouse</a>
+                            <a style={{textDecoration:"none"}} href="https://www.google.com/maps/place/118+Rte+de+Narbonne,+31400+Toulouse/@43.5589759,1.4657262,16z/data=!4m19!1m13!4m12!1m4!2m2!1d1.4724762!2d43.5608865!4e1!1m6!1m2!1s0x12aebc1687822ec1:0x6b3876eb1f911326!2s118+Rte+de+Narbonne,+31400+Toulouse!2m2!1d1.4665605!2d43.5569516!3m4!1s0x12aebc1687822ec1:0x6b3876eb1f911326!8m2!3d43.5569516!4d1.4665605">118 Route de Narbonne, Toulouse</a>
                         </div>
                     </div>
                 </div>

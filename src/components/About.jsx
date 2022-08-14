@@ -28,7 +28,7 @@ function About(props) {
                     <div className="about-card-upper">
                         <h2 className='about-title'>About Me</h2>
                         <div className="about-short">
-                        I'm a 3rd year student at INSA Toulouse in computer science and networks
+                        I'm a 4th year student at INSA Toulouse, currently doing Computer and Networks
                         </div>
                         <div className="about-desc">
                         My interests are in web and mobile development, data, cybersecurity and mathematics. I am autonomous, rigorous and dynamic. I like working in a team and learning new technologies.
@@ -43,7 +43,7 @@ function About(props) {
                                 Second place in the programming contest
                             </h4>
                             <div className="award-text">
-                                My team was also the first to solve problem D and so we got two prizes.
+                                Being also the first ones to solve problem D, we got two prizes.
                             </div>
                         </div>
                     </div>

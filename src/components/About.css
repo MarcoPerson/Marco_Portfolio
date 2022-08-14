@@ -104,6 +104,8 @@
 }
 
 .award-text{
+    box-sizing: border-box;
+    padding-right: 20px;
     color: #666;
 }
 
