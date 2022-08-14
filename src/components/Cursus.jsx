@@ -51,9 +51,9 @@ function Cursus() {
                 </div>
                 <h1 className="timeline-title">Python Developper <br /> <span>StaroCity</span></h1>
                 
-                <p>Development of a desktop application with Python and PyQT5
-for the management of user names and passwords according to the
-Internet access time required</p>
+                <p>A desktop application development with Python and PyQT5
+for the user names and passwords  management according to the required
+Internet access time</p>
               </li>
 
               <li>
@@ -106,10 +106,8 @@ Internet access time required</p>
                 </span>
                 </h1>
                 <p>
-                Activities: BasketBall <br />2 years of course
-                  intensive in Mathematics, Physics, Engineering Sciences
-                  and IT to prepare for the entrance exams to the Grandes
-                  French and Moroccan schools.
+                Activities: BasketBall <br />2 years of intensive courses in Mathematics, Physics, Engineering Sciences
+                  and IT to prepare for the entrance exams to the best French and Moroccan schools.
                 </p>
               </li>
               <li>
