@@ -37,6 +37,12 @@ export const projectsData = [
     },
     {
         id : 6,
+        img : "/assets/nft.png",
+        link : "https://marco-nftapp.pages.dev/",
+        alt : "My NFT Image"        
+    },
+    {
+        id : 7,
         img : "/assets/images-sharing.png",
         link : "https://images-sharing.vercel.app/",
         alt : "My Images Image"        
