@@ -46,5 +46,11 @@ export const projectsData = [
         img : "/assets/images-sharing.png",
         link : "https://images-sharing.vercel.app/",
         alt : "My Images Image"        
+    },
+    {
+        id : 8,
+        img : "/assets/cars.png",
+        link : "https://expo.dev/@marcoperson/Marco_Cars_App?serviceType=classic&distribution=expo-go",
+        alt : "My Images Image"        
     }
 ]
