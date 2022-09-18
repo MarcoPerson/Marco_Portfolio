@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Tag from './Tag';
 import './Project.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,6 +18,9 @@ function Project({data}) {
             <a href={data.link} className="imagewrapper">
                 <img src={data.img} alt={data.alt} />
             </a>
+            <div className='tools-list'>
+                {data.tools.map((item) => <Tag>{item}</Tag>)}
+            </div>
         </div>
     );
 }

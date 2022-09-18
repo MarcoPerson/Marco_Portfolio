@@ -1,54 +1,73 @@
-.project{
-    width: 30%;
+.project {
+  position: relative;
+  width: 30%;
+  height: 40vh;
+  border: 1px solid rgb(243, 242, 242);
+  margin: 10px;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.project-style {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 25px;
+  background-color: rgb(243, 242, 242);
+  position: sticky;
+  z-index: 2;
+}
+
+.project-style .circle {
+  height: 8px;
+  width: 8px;
+  margin: 0px 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.imagewrapper {
+  width: 100%;
+}
+
+.imagewrapper img {
+  width: 100%;
+  transition: all 5s ease;
+}
+
+.imagewrapper:hover img {
+  transform: translateY(-75%);
+}
+
+.tools-list {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 10px;
+  background-color: rgb(243, 242, 242);
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    width: 40%;
     height: 40vh;
-    border: 1px solid rgb(243, 242, 242);
-    margin : 10px;
-    border-radius: 20px 20px 0px 0px;
-    overflow: hidden;
+  }
 }
 
-.project-style{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    height: 25px;
-    background-color: rgb(243, 242, 242);
-    position: sticky;
-    z-index: 2;
-}
-
-.project-style .circle{
-    height: 8px;
-    width:  8px;
-    margin: 0px 3px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-.imagewrapper{
-    width: 100%;
-}
-
-.imagewrapper img{
-    width: 100%;
-    transition: all 5s ease;
-}
-
-.imagewrapper:hover img{
-    transform: translateY(-75%);
-}
-
-
-@media screen and (max-width: 768px){
-    .project{
-        width: 40%;
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .project{
-        width: 40%;
-        height: 25vh;
-    }
+@media screen and (max-width: 480px) {
+  .project {
+    width: 40%;
+    height: 25vh;
+  }
+  .tools-list {
+    padding: 1px;
+    font-size: 7px;
+  }
 }

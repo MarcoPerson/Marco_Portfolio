@@ -13,7 +13,7 @@ function Projects(props) {
         <div className='projects'>
             <div className="projects-title" data-aos="fade-right">
                 <h1>Some Of My Projects</h1>
-                <p>Here are some projects i did during my free time. Always interesting to start a project. <br /> My repository here <a className='projects-github' href="https://github.com/MarcoPerson"> <button>GitHub</button></a></p>
+                <p>Here are some projects i did during my free time. Some backend projects here <a className='projects-github' href="https://replit.com/@MarcoPerson"> <button>Replit</button></a><br /> My repository and other projects here <a className='projects-github' href="https://github.com/MarcoPerson"> <button>GitHub</button></a></p>
             </div>
             <div className="projects-list">
                 {projectsData.map((item) => {
