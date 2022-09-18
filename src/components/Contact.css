@@ -77,7 +77,7 @@
     padding-left: 10px;
     width: 60%;
     height: 50px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     border: none;
     border-bottom: 1px solid black;
 }
@@ -86,11 +86,17 @@
     outline: none;
 }
 
+.contact-form p{
+    color: red;
+    font-size: 12px;
+}
+
 .contact-form textarea{
     width: 80%;
     padding: 20px;
     font-size: 20px;
     height: 70px;
+    margin: 10px 0 0 0;
 }
 
 .contact-form button{
@@ -163,6 +169,9 @@
         padding: 5px 10px;
         font-size: 20px;
         font-weight: 600;
+    }
+    .send-success{
+        font-size: 14px;
     }
 }
 
