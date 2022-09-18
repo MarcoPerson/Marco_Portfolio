@@ -72,6 +72,27 @@
     margin-bottom: 2px;
 }
 
+@media screen and (max-width: 780px){
+    .skills-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-domains{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .skills-image{
+        height: 60px;
+        width: 60px;
+        object-fit: contain;
+        margin: 10px;
+        margin-bottom: 2px;
+    }
+    .skills-content p{
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 480px){
     .skills-wrapper{
         flex-direction: column;
@@ -80,5 +101,15 @@
     .skills-domains{
         width: 100%;
         margin-bottom: 50px;
+    }
+    .skills-image{
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+        margin: 10px;
+        margin-bottom: 2px;
+    }
+    .skills-content p{
+        font-size: 10px;
     }
 }

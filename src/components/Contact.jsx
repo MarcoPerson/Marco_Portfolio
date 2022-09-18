@@ -31,7 +31,7 @@ function Contact(props) {
     }
     
     useEffect(() => {
-        AOS.init({duration: 2000});
+        AOS.init({duration: 800});
     },[])
 
     return (

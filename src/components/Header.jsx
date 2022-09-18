@@ -13,7 +13,7 @@ function Header(props) {
     },[])
     return (
         <div className='intro' data-aos="fade-down">
-            <a href="/assets/CV Merveilles AGBETI-MESSAN.pdf" className="download-resume"><button>Download My Resume    </button></a>
+            <a href="/assets/CV_Merveilles_AGBETI-MESSAN.pdf" className="download-resume"><button>Download My Resume</button></a>
             <div className="intro-left">
                 <div className="intro-left-wrapper">
                     <h2 className="intro-text">
