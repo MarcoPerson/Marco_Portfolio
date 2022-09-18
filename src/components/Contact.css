@@ -241,4 +241,7 @@
         font-size: 20px;
         font-weight: 600;
     }
+    .send-success{
+        font-size: 12px;
+    }
 }
