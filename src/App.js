@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Toggle from './components/Toggle';
+import CurBis from './components/CurBis';
 import { ThemeContext } from './darkcontext';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Cursus />
+      <CurBis />
       <Contact />
     </div>
   );

@@ -12,7 +12,7 @@ function Header(props) {
         AOS.init({duration: 3000});
     },[])
     return (
-        <div className='intro' data-aos="fade-down">
+        <div className='intro' data-aos="zoom-in" data-aos-delay={500}>
             <a href="/assets/CV_Merveilles_AGBETI-MESSAN.pdf" className="download-resume"><button>Download My Resume</button></a>
             <div className="intro-left">
                 <div className="intro-left-wrapper">
@@ -94,7 +94,7 @@ function Header(props) {
                     </g>
                 </svg>
             </div>
-            <div className="intro-right">
+            <div className="intro-right" data-aos-delay={2000}>
                 <div className="intro-background"></div>
                 <img src="/assets/Me2.png" alt="Me" className="intro-image" />
             </div>

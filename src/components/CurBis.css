@@ -1,0 +1,98 @@
+.cursus {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.cursus-title{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.left,
+.right {
+  width: 40%;
+}
+
+.item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #59b256;
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #59b256;
+}
+
+.item:hover::before {
+  background-color: #59b256;
+}
+
+.item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #59b256;
+  margin-bottom: 10px;
+}
+
+.item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.item ul {
+  padding-left: 20px;
+}
+
+.item li {
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.item p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 840px) {
+    .cursus{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right{
+        width: 90%;
+    }
+
+    .left{
+        order: 2;
+    }
+
+    .right{
+        order: 1;
+    }
+}
