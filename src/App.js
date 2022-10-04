@@ -17,9 +17,9 @@ function App() {
       <Toggle />
       <Header />
       <About />
-      <Skills />
-      <Projects />
       <CurBis />
+      <Projects />
+      <Skills />
       <Contact />
     </div>
   );
