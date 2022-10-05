@@ -34,6 +34,11 @@ function Cursus() {
             <em>CPGE Ibn Ghazi, Rabat - MAROC</em>
           </p>
           <ul>
+            <li>
+              <mark>Project</mark> : Images Cryptography using Robert May
+              logistic sequence <br /> The presentation support is{" "}
+              <a className='projects-github' href="/assets/TIPE_La_cryptographie_des_images.pdf"> <button>here</button></a>
+            </li>
             <li>Activities: BasketBall</li>
             <li>
               2 years of intensive courses in Mathematics, Physics, Engineering
@@ -78,7 +83,7 @@ function Cursus() {
           </ul>
         </div>
       </div>
-      <div className="right"  data-aos="fade-right">
+      <div className="right" data-aos="fade-right">
         <h1 className="cursus-title" data-aos="fade-up">
           Experience
         </h1>
