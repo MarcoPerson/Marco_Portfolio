@@ -33,6 +33,11 @@ function Skills(props) {
                                 </div>
 
                                 <div className="skills-content">
+                                    <img src="/assets/icons/java_logo.png" title='Java' alt="#" className="skills-image" />
+                                    <p>Java</p>
+                                </div>
+
+                                <div className="skills-content">
                                     <img src="/assets/icons/qt_logo.png" title='QT' alt="#" className="skills-image" />
                                     <p>QT</p>
                                 </div>
@@ -43,8 +48,12 @@ function Skills(props) {
                             <h3>Basics</h3>
                             <div className="skills-sublist">
                                 <div className="skills-content">
-                                    <img src="/assets/icons/java_logo.png" title='Java' alt="#" className="skills-image" />
-                                    <p>Java</p>
+                                    <img src="/assets/icons/csharp_logo.png" title='C#' alt="#" className="skills-image" />
+                                    <p>C#</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/ocaml_logo.png" title='Ocaml' alt="#" className="skills-image" />
+                                    <p>Ocaml</p>
                                 </div>
 
                             </div>
