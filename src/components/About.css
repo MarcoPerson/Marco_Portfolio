@@ -166,7 +166,7 @@
   .about-desc {
     display: none;
   }
-  .about-card-lower {
+  .about-card-lower, .about-card-upper  {
     width: 90%;
     margin: auto;
   }
