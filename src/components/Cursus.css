@@ -81,7 +81,7 @@
 .timeline-title span{
     font-size: 15px;
     letter-spacing: 1px;
-    color: #59b256;
+    color: #02A4E4;
 }
 
 .timeline-container ul li p{
@@ -100,7 +100,7 @@
 .timeline-container .timeline h3{
     font-size: 10px;
     font-weight: 700;  
-    color: #59b256;
+    color: #02A4E4;
 }
 
 @media screen and (min-width : 768px){
@@ -147,7 +147,7 @@
         left: -30px;
     }
     .timeline-container ul li:hover::after{
-        background-color: #59b256;
+        background-color: #02A4E4;
     }
     .timeline-container .timeline{
         width: 95%;

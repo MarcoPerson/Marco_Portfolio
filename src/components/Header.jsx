@@ -27,7 +27,7 @@ function Header(props) {
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Web & Mobile Developer</div>
-              <div className="intro-title-item">Engineer Student</div>
+              <div className="intro-title-item">Engineering Student</div>
             </div>
           </div>
           <div className="intro-desc">

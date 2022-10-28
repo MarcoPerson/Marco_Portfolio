@@ -14,7 +14,7 @@
     left: 0;
     height: 100%;
     width: 20px;
-    background-color: #59b256;
+    background-color: #02A4E4;
 }
 
 .contact-wrapper{
@@ -58,7 +58,7 @@
 }
 
 .contact-info a:hover{
-	color: #59b256;
+	color: #02A4E4;
 }
 
 .contact-intro{
@@ -108,18 +108,18 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: white;
-    color: #59b256;
+    color: #02A4E4;
     border: 1px solid black;
 }
 
 .contact-form button:hover{
-    background-color: #59b256;
+    background-color: #02A4E4;
     color: white;
-    border: 1px solid #59b256;
+    border: 1px solid #02A4E4;
 }
 
 .send-success{
-    color: #59b256;
+    color: #02A4E4;
     margin-top: 10px;
 }
 

@@ -24,7 +24,7 @@
 .item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #59b256;
+  border-left: 2px solid #02A4E4;
   position: relative;
 }
 
@@ -37,11 +37,11 @@
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #59b256;
+  border: 2px solid #02A4E4;
 }
 
 .item:hover::before {
-  background-color: #59b256;
+  background-color: #02A4E4;
 }
 
 .item h4 {
@@ -50,7 +50,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #59b256;
+  color: #02A4E4;
   margin-bottom: 10px;
 }
 
