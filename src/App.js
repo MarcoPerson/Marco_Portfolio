@@ -30,25 +30,28 @@ function App() {
             content="Personal website of Merveilles AGBETI-MESSAN"
           />
 
+<link rel="canonical" href="https://marco-portfolio.vercel.app"/>
+
           <meta name="author" content="Merveilles AGBETI-MESSAN" />
           <meta name="keywords" content="portfolio, merveilles, agbeti-messan, agbeti, epe-nsin, marco, komlan, merveilles agbeti-messan, insa, insa toulouse, computer science, software engineer, marco portfolio" />
-
+          <meta property="og:locale" content="en_US"/>
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Merveilles AGBETI-MESSAN - Portfolio" />
-          <meta property="og:image" content="https://marco-portfolio.vercel.app/image.png" />
-          <meta property="og:image:width" content="750"/>
-          <meta property="og:image:height" content="500"/>
-          <meta property="og:image:type" content="image/png"/>
-          <meta property="og:url" content="https://marco-portfolio.vercel.app" />
           <meta property="og:description" content="Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse." />
+          <meta property="og:url" content="https://marco-portfolio.vercel.app" />
+          <meta property="og:site_name" content="Merveilles AGBETI-MESSAN"/>
+          <meta property="og:image" content="https://marco-portfolio.vercel.app/image.jpg" />
+          <meta property="og:image:width" content="1200"/>
+          <meta property="og:image:height" content="630"/>
+          <meta property="og:image:type" content="image/jpeg"/>
 
-          <meta name="twitter:creator" content="Merveilles AGBETI-MESSAN" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image" content="https://marco-portfolio.vercel.app/image.png" />
+          <meta name="twitter:image" content="https://marco-portfolio.vercel.app/image.jpg" />
           <meta name="twitter:url" content="https://marco-portfolio.vercel.app" />
-          <meta name="twitter:site" content="https://marco-portfolio.vercel.app" />
           <meta name="twitter:title" content="Merveilles AGBETI-MESSAN - Portfolio" />
           <meta name="twitter:description" content="Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse." />
+
+          <link rel="shortlink" href="https://marco-portfolio.vercel.app"/>
         </Helmet>
         <Toggle />
         <Header />
