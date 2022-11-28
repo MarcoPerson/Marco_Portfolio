@@ -22,7 +22,7 @@ function Header(props) {
         <div className="intro-left-wrapper">
           <h2 className="intro-text">Hello, My Name is</h2>
           <h1 className="intro-name">
-            Merveiles <br className="introname-cutter" /> AGBETI-MESSAN
+            Merveilles <br className="introname-cutter" /> AGBETI-MESSAN
           </h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
