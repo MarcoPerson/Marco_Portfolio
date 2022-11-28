@@ -30,6 +30,30 @@
   width: 100%;
 }
 
+.certif-hoover{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #02A4E4;
+  font-weight: bolder;
+  color: white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  font-size: large;
+  transition: ease-in 0.5s opacity;
+}
+
+.certif-hoover:hover{
+  opacity: 0.8;
+}
+
 .imagewrapper img {
   width: 100%;
   transition: all 5s ease;
@@ -37,6 +61,15 @@
 
 .imagewrapper:hover img {
   transform: translateY(-75%);
+}
+
+.certifimagewrapper img {
+  width: 100%;
+  transition: all 3s ease;
+}
+
+.certifimagewrapper:hover img {
+  transform: translateY(-30%);
 }
 
 .tools-list {
@@ -63,6 +96,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .certif-hoover{
+    font-size: small;
+  }
   .project {
     width: 40%;
     height: 25vh;

@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Toggle from "./components/Toggle";
 import CurBis from "./components/CurBis";
+import Certifs from "./components/Certifs";
 import { ThemeContext } from "./darkcontext";
 import { HelmetProvider } from "react-helmet-async";
 import { Helmet } from "react-helmet-async";
@@ -59,6 +60,7 @@ function App() {
         <CurBis />
         <Projects />
         <Skills />
+        <Certifs />
         <Contact />
       </div>
     </HelmetProvider>
