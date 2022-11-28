@@ -8,6 +8,16 @@
   overflow: hidden;
 }
 
+.certif {
+  position: relative;
+  width: 30%;
+  height: 40vh;
+  border: 5px solid #f3f2f2;
+  margin: 10px;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
 .project-style {
   display: flex;
   align-items: center;
@@ -30,6 +40,9 @@
   width: 100%;
 }
 
+.certif-text{
+  text-shadow: 1px 1px 3px black;
+}
 .certif-hoover{
   position: absolute;
   display: flex;
@@ -54,6 +67,16 @@
   opacity: 0.8;
 }
 
+.certifimagewrapper img {
+  width: 100%;
+  height: 100%;
+  transition: all 3s ease;
+}
+
+.certifimagewrapper:hover img {
+  scale: 1.2;
+}
+
 .imagewrapper img {
   width: 100%;
   transition: all 5s ease;
@@ -61,15 +84,6 @@
 
 .imagewrapper:hover img {
   transform: translateY(-75%);
-}
-
-.certifimagewrapper img {
-  width: 100%;
-  transition: all 3s ease;
-}
-
-.certifimagewrapper:hover img {
-  transform: translateY(-30%);
 }
 
 .tools-list {

@@ -1,5 +1,4 @@
 import React, { useEffect, useContext } from 'react';
-import Tag from './Tag';
 import './Project.css';
 import AOS from 'aos';
 import { ThemeContext } from "../darkcontext";
@@ -11,16 +10,11 @@ function Certif({data}) {
         AOS.init({duration: 2000});
     },[])
     return (
-        <div className='project' style={{borderColor: theme.state.darkMode ? "black" : "#f3f2f2"}} data-aos="fade-left">
-            <div className="project-style" style={{backgroundColor: theme.state.darkMode ? "black" : "#f3f2f2"}}>
-                <div className="circle"></div>
-                <div className="circle"></div>
-                <div className="circle"></div>
-            </div>
+        <div className='certif' style={{borderColor: theme.state.darkMode ? "black" : "#f3f2f2"}} data-aos="fade-left">
             <a href={data.link} className="certifimagewrapper">
                 <img src={data.img} alt={data.alt} />
                 <div className="certif-hoover">
-                    <span>{data.name}</span>
+                    <span className='certif-text'>{data.name}</span>
                 </div>
             </a>
         </div>
