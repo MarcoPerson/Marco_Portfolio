@@ -66,6 +66,13 @@ export const projectsData = [
 
 export const certifsData = [
     {
+        id : 7,
+        img : "/assets/whatis.png",
+        link : "https://www.coursera.org/account/accomplishments/certificate/TNL9Q6XCD98A",
+        alt : "",
+        name: "What is Data Science?"     
+    },
+    {
         id : 6,
         img : "/assets/backend.png",
         link : "https://www.freecodecamp.org/certification/MarcoPerson/back-end-development-and-apis",
