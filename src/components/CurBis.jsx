@@ -116,7 +116,9 @@ function Cursus() {
               integration tests and multiple end to end tests using Jest and
               PlayWright.
             </li>
-            <li>Developed the company website using NextJS and TailWindCSS.</li>
+            <li>Developed the company website using NextJS and TailWindCSS.
+            <a className='projects-github' href="https://webuildup.io"> <button>WeBuildUp</button></a>
+            </li>
           </ul>
         </div>
         <div className="item">
