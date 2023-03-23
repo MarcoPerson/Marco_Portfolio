@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -12,9 +12,14 @@ import Certifs from "./components/Certifs";
 import { ThemeContext } from "./darkcontext";
 import { HelmetProvider } from "react-helmet-async";
 import { Helmet } from "react-helmet-async";
+import { clarity } from "react-microsoft-clarity";
 
 function App() {
   const theme = useContext(ThemeContext);
+  useEffect(() => {
+    clarity.init("gd67juaw60");
+  }, [])
+  
   return (
     <HelmetProvider>
       <div
