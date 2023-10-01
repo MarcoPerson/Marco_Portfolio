@@ -80,9 +80,9 @@ function Contact(props) {
               <img src="/assets/map.png" alt="Place Icon" className="tel" />
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.google.com/maps/place/118+Rte+de+Narbonne,+31400+Toulouse/@43.5589759,1.4657262,16z/data=!4m19!1m13!4m12!1m4!2m2!1d1.4724762!2d43.5608865!4e1!1m6!1m2!1s0x12aebc1687822ec1:0x6b3876eb1f911326!2s118+Rte+de+Narbonne,+31400+Toulouse!2m2!1d1.4665605!2d43.5569516!3m4!1s0x12aebc1687822ec1:0x6b3876eb1f911326!8m2!3d43.5569516!4d1.4665605"
+                href="https://maps.app.goo.gl/XrBVmap73c1kBm9XA"
               >
-                118 Route de Narbonne, Toulouse
+                7 Allée des Sciences Appliquées, Toulouse
               </a>
             </div>
           </div>

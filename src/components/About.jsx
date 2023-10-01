@@ -41,12 +41,11 @@ function About(props) {
               </a>
             </div>
             <div className="about-short">
-              I'm a 4th year student at INSA Toulouse, currently doing Computer
-              Science and Networks
+              I'm a 5th year student at INSA Toulouse, currently doing Computer
+              Science and Machine Learning
             </div>
             <div className="about-desc">
-              My interests are in web and mobile development, data,
-              cybersecurity and mathematics. I am autonomous, rigorous and
+              My interests are in web and mobile development, machine learning and mathematics. I am autonomous, rigorous and
               dynamic. I like working in a team and learning new technologies.
             </div>
           </div>

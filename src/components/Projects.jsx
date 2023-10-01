@@ -12,7 +12,7 @@ function Projects(props) {
     return (
         <div className='projects'>
             <div className="projects-title" data-aos="fade-right">
-                <h1>Some Of My Projects</h1>
+                <h1>Some Of My Free Time Projects</h1>
                 <p>Here are some projects i did during my free time. Some backend projects here <a className='projects-github' href="https://replit.com/@MarcoPerson"> <button>Replit</button></a><br /> My repository and other Python, C, Java projects here <a className='projects-github' href="https://github.com/MarcoPerson"> <button>GitHub</button></a></p>
             </div>
             <div className="projects-list">

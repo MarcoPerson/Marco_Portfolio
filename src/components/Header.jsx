@@ -31,9 +31,9 @@ function Header(props) {
             </div>
           </div>
           <div className="intro-desc">
-            I create Websites and Websites components for customers <br /> in my
-            free time. I'm a student at INSA Toulouse in <br /> the 4th year of
-            IT engineering.
+          I specialize in the development of websites and website components for clients. <br />  
+          I am currently pursuing my fifth-year studies in IT engineering at INSA Toulouse. <br />
+          Additionally, I am enthusiastic about incorporating machine learning techniques into web development projects.
           </div>
         </div>
         <svg

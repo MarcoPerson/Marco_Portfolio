@@ -14,6 +14,21 @@ function Cursus() {
           Education
         </h1>
         <div className="item">
+          <h4>Operational Research and Optimization</h4>
+          <h5>September 2023 - Today</h5>
+          <p>
+            <em>
+              Ecole Natinal de l'Aviation Civile (ENAC), Toulouse -
+              FRANCE
+            </em>
+          </p>
+          <ul>
+            <li>Mathematical optimization for machine learning</li>
+            <li>Deterministic Global Optimization</li>
+            <li>Advanced combinatorial optimisation</li>
+          </ul>
+        </div>
+        <div className="item">
           <h4>Computer Science</h4>
           <h5>September 2021 - Today</h5>
           <p>
@@ -88,15 +103,39 @@ function Cursus() {
           Experience
         </h1>
         <div className="item">
-          <h4>Partnerships Officer</h4>
+          <h4>IT Department & Partnerships Officer</h4>
           <h5>November 2021 - Today</h5>
           <p>
             <em>Junior INSA Services, Toulouse - France</em>
           </p>
           <ul>
             <li>
+              Maintain IT tools for the team.
+            </li>
+            <li>
+              Develop these tools to improve the performance of the Junior Enterprise.
+            </li>
+            <li>
               Develop, improve and perpetuate lasting relationships with JIS
               partners.
+            </li>
+          </ul>
+        </div>
+        <div className="item">
+          <h4>Software Engineer</h4>
+          <h5>June 2023 - September 2023</h5>
+          <p>
+            <em>Sopra Steria · Internship, Colomiers - FRANCE</em>
+          </p>
+          <ul>
+            <li>
+            Developed Java services for the French Ministry of Agriculture, enhancing digital infrastructure and efficiency.
+            </li>
+            <li>
+            Mastered the Java Orion framework to work on PAGODE, a secure application for electronic declarations and fishing activities, as well as LOGICS, an application for agricultural operation authorization.
+            </li>
+            <li>
+              Worked on 100+ Jira test cases for TeleAgape, ensuring the reliability of fishing permit requests.
             </li>
           </ul>
         </div>
