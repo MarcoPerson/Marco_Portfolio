@@ -13,33 +13,35 @@ export const projectsData = [
         alt : "My Ecommerce Image",
         tools: ["ReactJS", "Bootstrap", "StripeJS", "ExpressJS"]      
     },
+    
     {
         id : 2,
-        img : "/assets/meteo.png",
-        link : "https://marco-meteoapp.pages.dev/",
-        alt : "My Meteo Image",
-        tools: ["ReactJS", "Weather API"]   
-    },
-    {
-        id : 3,
-        img : "/assets/calculator.png",
-        link : "https://marco-calculatorapp.pages.dev/",
-        alt : "My Calculator Image",
-        tools: ["ReactJS"]   
-    },
-    {
-        id : 4,
-        img : "/assets/game.png",
-        link : "https://marco-basicgameproject.pages.dev/",
-        alt : "My Game Image",
-        tools: ["HTML", "CSS", "JavaScript"]        
-    },
-    {
-        id : 5,
         img : "/assets/movies.png",
         link : "https://marco-movies.pages.dev/",
         alt : "My Movies Image",
         tools: ["HTML", "CSS", "JavaScript"]         
+    },
+    {
+        id : 3,
+        img : "/assets/factorfake.png",
+        link : "https://factorfake.vercel.app/",
+        alt : "Trust game",
+        tools: ["Angular"]     
+    },
+    {
+        id : 4,
+        img : "/assets/insachat.png",
+        link : "https://github.com/MarcoPerson/INSA_JavaProject",
+        alt : "Local Communication App",
+        tools: ["Java", "SQL", "JavaFx"]      
+    },
+    
+    {
+        id : 5,
+        img : "/assets/reactclarity.png",
+        link : "https://www.npmjs.com/package/react-microsoft-clarity",
+        alt : "My react-microsoft-clarity component",
+        tools: ["JavaScript"]         
     },
     {
         id : 6,
@@ -61,7 +63,29 @@ export const projectsData = [
         link : "https://expo.dev/@marcoperson/Marco_Cars_App?serviceType=classic&distribution=expo-go",
         alt : "My Images Image",
         tools: ["React Native"]         
-    }
+    },
+    {
+        id : 9,
+        img : "/assets/game.png",
+        link : "https://marco-basicgameproject.pages.dev/",
+        alt : "My Game Image",
+        tools: ["HTML", "CSS", "JavaScript"]        
+    },
+    {
+        id : 10,
+        img : "/assets/meteo.png",
+        link : "https://marco-meteoapp.pages.dev/",
+        alt : "My Meteo Image",
+        tools: ["ReactJS", "Weather API"]   
+    },
+    {
+        id : 11,
+        img : "/assets/calculator.png",
+        link : "https://marco-calculatorapp.pages.dev/",
+        alt : "My Calculator Image",
+        tools: ["ReactJS"]   
+    },
+
 ]
 
 export const certifsData = [

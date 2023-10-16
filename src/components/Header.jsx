@@ -13,7 +13,7 @@ function Header(props) {
   return (
     <div className="intro" data-aos="zoom-in" data-aos-delay={500}>
       <a
-        href="/assets/4A_CV_Merveilles_AGBETI_MESSAN_English.pdf"
+        href="/assets/5A_CV_Merveilles_AGBETI_MESSAN_English.pdf"
         className="download-resume"
       >
         <button>Download My Resume</button>
