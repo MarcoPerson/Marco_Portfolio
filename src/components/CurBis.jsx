@@ -38,9 +38,37 @@ function Cursus() {
             </em>
           </p>
           <ul>
-            <li>Courses included: Computer Science and Networks</li>
-            <li>Graduation Expected: September 2024</li>
+            <li><strong>5th year student Distributed Systems and Big Data:</strong>
+              <ul>
+                <li>Machine Learning: Supervised and unsupervised</li>
+                <li>Virtualization and Cloud computing</li>
+                <li>Service-oriented architecture: SOAP, RESTful</li>
+                <li>Big Data: Hardware and software infrastructures (storage, computation)</li>
+                <li>Deep Learning: YOLO object detection</li>
+              </ul>
+            </li>
+
+            <li><strong>4th year student Computer Science:</strong>
+              <ul>
+                <li>Artificial Intelligence, Machine Learning, Metaheuristics</li>
+                <li>Project management</li>
+                <li>Distributed Algorithms</li>
+                <li>Law, Finance, Marketing, Organisational Communication</li>
+              </ul>
+            </li>
+
+            <li><strong>3rd year student Modelling, Computer Science and Communication:</strong>
+              <ul>
+                <li>Numerical Analysis, Optimisation, Markov Chains</li>
+                <li>Data Structures and Algorithms, Complexity</li>
+                <li>Functional and Object-oriented design and programming</li>
+                <li>Operating System and Micro Controller Programming</li>
+                <li>Database management (SQL)</li>
+                <li>Finance, Corporate Structure and Organisation, Business Simulation</li>
+              </ul>
+            </li>
           </ul>
+
         </div>
         <div className="item">
           <h4>Mathematics and Physics</h4>
@@ -103,23 +131,35 @@ function Cursus() {
           Experience
         </h1>
         <div className="item">
+          <h4>AI Research Engineer - Data Scientist</h4>
+          <h5>February 2024 - Today</h5>
+          <p>
+            <em>Capgemini Engineering · Internship, Blagnac - FRANCE</em>
+          </p>
+          <ul>
+            <li>Conducting an in-depth literature review on utilizing Knowledge Graphs and Large Language Models (LLMs) to enhance entity recognition in aerospace maintenance texts.</li>
+            <li>Performing data preprocessing tasks to ensure optimal quality and relevance for subsequent analysis.</li>
+            <li>Implementing a state-of-the-art solution that integrates Knowledge Graphs and LLMs to improve entity recognition performance in aeronautical maintenance texts.</li>
+            <li>Writing and documenting the research process, findings, and implications for scientific articles.</li>
+          </ul>
+
+          <p style={{fontSize:14}}>This internship provides a unique opportunity to contribute to the forefront of natural language processing for aerospace maintenance, exploring the synergies between knowledge graphs, large language models, and entity recognition.</p>
+
+        </div>
+        <div className="item">
           <h4>IT Department & Partnerships Officer</h4>
-          <h5>November 2021 - Today</h5>
+          <h5>November 2021 - November 2023</h5>
           <p>
             <em>Junior INSA Services, Toulouse - France</em>
           </p>
           <ul>
-            <li>
-              Maintain IT tools for the team.
-            </li>
-            <li>
-              Develop these tools to improve the performance of the Junior Enterprise.
-            </li>
-            <li>
-              Develop, improve and perpetuate lasting relationships with JIS
-              partners.
-            </li>
+            <li>Maintain and optimize IT tools for team use.</li>
+            <li>Develop tools to enhance Junior Enterprise performance.</li>
+            <li>Cultivate and sustain enduring relationships with JIS partners.</li>
+            <li>Enhance, improve, and perpetuate relationships with JIS partners.</li>
+            <li>Foster the development and improvement of tools for team efficiency.</li>
           </ul>
+
         </div>
         <div className="item">
           <h4>Software Engineer</h4>
@@ -129,10 +169,10 @@ function Cursus() {
           </p>
           <ul>
             <li>
-            Developed Java services for the French Ministry of Agriculture, enhancing digital infrastructure and efficiency.
+              Developed Java services for the French Ministry of Agriculture, enhancing digital infrastructure and efficiency.
             </li>
             <li>
-            Mastered the Java Orion framework to work on PAGODE, a secure application for electronic declarations and fishing activities, as well as LOGICS, an application for agricultural operation authorization.
+              Mastered the Java Orion framework to work on PAGODE, a secure application for electronic declarations and fishing activities, as well as LOGICS, an application for agricultural operation authorization.
             </li>
             <li>
               Worked on 100+ Jira test cases for TeleAgape, ensuring the reliability of fishing permit requests.
@@ -156,7 +196,7 @@ function Cursus() {
               PlayWright.
             </li>
             <li>Developed the company website using NextJS and TailWindCSS.
-            <a className='projects-github' href="https://webuildup.io"> <button>WeBuildUp</button></a>
+              <a className='projects-github' href="https://webuildup.io"> <button>WeBuildUp</button></a>
             </li>
           </ul>
         </div>

@@ -19,8 +19,20 @@ function Skills(props) {
                             <div className="skills-sublist">
 
                                 <div className="skills-content">
+                                    <img src="/assets/icons/java_logo.png" title='Java' alt="#" className="skills-image" />
+                                    <p>Java</p>
+                                </div>
+                                <div className="skills-content">
                                     <img src="/assets/icons/python_logo.png" title='Python' alt="#" className="skills-image" />
                                     <p>Python</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/numpy_logo.png" title='Numpy' alt="#" className="skills-image" />
+                                    <p>Numpy</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/pandas_logo.png" title='Pandas' alt="#" className="skills-image" />
+                                    <p>Pandas</p>
                                 </div>
                             </div>
                         </div>
@@ -31,12 +43,14 @@ function Skills(props) {
                                     <img src="/assets/icons/c_logo.png" title='C' alt="#" className="skills-image" />
                                     <p>C</p>
                                 </div>
-
                                 <div className="skills-content">
-                                    <img src="/assets/icons/java_logo.png" title='Java' alt="#" className="skills-image" />
-                                    <p>Java</p>
+                                    <img src="/assets/icons/scikit_logo.png" title='Scikit-Learn' alt="#" className="skills-image" />
+                                    <p>Scikit-Learn</p>
                                 </div>
-
+                                <div className="skills-content">
+                                    <img src="/assets/icons/torch_logo.png" title='PyTorch' alt="#" className="skills-image" />
+                                    <p>PyTorch</p>
+                                </div>
                                 <div className="skills-content">
                                     <img src="/assets/icons/qt_logo.png" title='QT' alt="#" className="skills-image" />
                                     <p>QT</p>
@@ -55,7 +69,14 @@ function Skills(props) {
                                     <img src="/assets/icons/ocaml_logo.png" title='Ocaml' alt="#" className="skills-image" />
                                     <p>Ocaml</p>
                                 </div>
-
+                                <div className="skills-content">
+                                    <img src="/assets/icons/tensorflow_logo.png" title='TensorFlow' alt="#" className="skills-image" />
+                                    <p>TensorFlow</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/keras_logo.png" title='Keras' alt="#" className="skills-image" />
+                                    <p>Keras</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,6 +104,10 @@ function Skills(props) {
                                     <img src="/assets/icons/mysql_logo.png" title='MySQL' alt="#" className="skills-image" />
                                     <p>MySQL</p>
                                 </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/tailwind-logo.png" title='TailWindCSS' alt="#" className="skills-image" />
+                                    <p>TailWindCSS</p>
+                                </div>
                             </div>
                         </div>
                         <div className="skills-a">
@@ -91,6 +116,10 @@ function Skills(props) {
                                 <div className="skills-content">
                                     <img src="/assets/icons/reactjs_logo.png" title='ReactJS' alt="#" className="skills-image" />
                                     <p>ReactJS</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/angular_logo.png" title='Angular' alt="#" className="skills-image" />
+                                    <p>Angular</p>
                                 </div>
                                 <div className="skills-content">
                                     <img src="/assets/icons/nextjs_logo.png" title='NextJS' alt="#" className="skills-image" />
@@ -158,6 +187,45 @@ function Skills(props) {
                     </div>
                 </div>
                 <div className="skills-domains" data-aos="fade-left">
+                    <h2 className="skills-domains-header">TECH</h2>
+                    <div className="skills-list">
+                        <div className="skills-a">
+                            <h3>Medium</h3>
+                            <div className="skills-sublist">
+                                <div className="skills-content">
+                                    <img src="/assets/icons/azure_logo.png" title='Azure' alt="#" className="skills-image" />
+                                    <p>Azure</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/openstack_logo.png" title='OpenStack' alt="#" className="skills-image" />
+                                    <p>OpenStack</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/hadoop_logo.png" title='Hadoop' alt="#" className="skills-image" />
+                                    <p>Hadoop</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skills-a">
+                            <h3>Basics</h3>
+                            <div className="skills-sublist">
+                                <div className="skills-content">
+                                    <img src="/assets/icons/spark_logo.png" title='Spark' alt="#" className="skills-image" />
+                                    <p>Spark</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/cassandra_logo.png" title='Cassandra' alt="#" className="skills-image" />
+                                    <p>Cassandra</p>
+                                </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/neo4j_logo.png" title='Neo4j' alt="#" className="skills-image" />
+                                    <p>Neo4j</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="skills-domains" data-aos="fade-down">
                     <h2 className="skills-domains-header">PROJECT MANAGEMENT</h2>
                     <div className="skills-list">
                         <div className="skills-a">
@@ -171,14 +239,18 @@ function Skills(props) {
                                     <img src="/assets/icons/github_logo.png" title='GitHub' alt="#" className="skills-image" />
                                     <p>GitHub</p>
                                 </div>
+                                <div className="skills-content">
+                                    <img src="/assets/icons/gitlab_logo.png" title='GitLab' alt="#" className="skills-image" />
+                                    <p>GitLab</p>
+                                </div>
                             </div>
                         </div>
                         <div className="skills-a">
                             <h3>Basics</h3>
                             <div className="skills-sublist">
                                 <div className="skills-content">
-                                    <img src="/assets/icons/gitlab_logo.png" title='GitLab' alt="#" className="skills-image" />
-                                    <p>GitLab</p>
+                                    <img src="/assets/icons/bitbucket_logo.png" title='Bitbucket' alt="#" className="skills-image" />
+                                    <p>Bitbucket</p>
                                 </div>
                             </div>
                         </div>

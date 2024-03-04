@@ -41,13 +41,13 @@ function About(props) {
               </a>
             </div>
             <div className="about-short">
-              I'm a 5th year student at INSA Toulouse, currently doing Computer
-              Science and Machine Learning
+              5th-year <b>Computer Science</b> student at INSA Toulouse, pursuing a <b>Mathematics and Optimization</b> double degree with ENAC, fueled by a profound passion for AI.
             </div>
             <div className="about-desc">
-              My interests are in web and mobile development, machine learning and mathematics. I am autonomous, rigorous and
-              dynamic. I like working in a team and learning new technologies.
+              My heart lies in web and mobile development, complemented by a keen interest in machine learning and mathematics. Renowned for my autonomy, rigor, and dynamism, I excel in collaborative team environments and relish the challenge of mastering new technologies.
             </div>
+
+
           </div>
           <div className="about-card-lower">
             <div className="award-image">
@@ -58,8 +58,9 @@ function About(props) {
                 Second place in the programming contest
               </h4>
               <div className="award-text">
-                Being also the first ones to solve problem D, we got two prizes.
+                Achieving the feat of being the first to solve problem D, we secured two prizes.
               </div>
+
             </div>
           </div>
         </div>

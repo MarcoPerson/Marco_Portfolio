@@ -26,14 +26,17 @@ function Header(props) {
           </h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
-              <div className="intro-title-item">Web & Mobile Developer</div>
-              <div className="intro-title-item">Engineering Student</div>
+              <div className="intro-title-item">AI Research Engineer</div>
+              <div className="intro-title-item">Software Engineer</div>
+              <div className="intro-title-item">Data Scientist</div>
             </div>
           </div>
           <div className="intro-desc">
-          I specialize in the development of websites and website components for clients. <br />  
-          I am currently pursuing my fifth-year studies in IT engineering at INSA Toulouse. <br />
-          Additionally, I am enthusiastic about incorporating machine learning techniques into web development projects.
+            I specialize in the <b>development of websites and website components</b> for clients. <br />
+            I am currently pursuing my fifth-year studies in IT engineering at INSA Toulouse. <br />
+            Additionally, I am enthusiastic about incorporating <strong>machine learning techniques</strong> into web development projects. <br />
+            Moreover, I am concurrently enrolled in a double degree program at ENAC, focusing on <b>Operational Research and Optimization</b>. <br />
+            My passion extends to <b>AI research projects</b> and <b>data science</b>, where I actively explore integrating machine learning techniques into web development projects.
           </div>
         </div>
         <svg
