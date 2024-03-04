@@ -32,11 +32,10 @@ function Header(props) {
             </div>
           </div>
           <div className="intro-desc">
-            I specialize in the <b>development of websites and website components</b> for clients. <br />
+            I build <b> web and mobile applications</b> for clients. <br />
             I am currently pursuing my fifth-year studies in IT engineering at INSA Toulouse. <br />
-            Additionally, I am enthusiastic about incorporating <strong>machine learning techniques</strong> into web development projects. <br />
-            Moreover, I am concurrently enrolled in a double degree program at ENAC, focusing on <b>Operational Research and Optimization</b>. <br />
-            My passion extends to <b>AI research projects</b> and <b>data science</b>, where I actively explore integrating machine learning techniques into web development projects.
+            Additionally, I am concurrently enrolled in a double degree program at ENAC, focusing on <b>Operational Research and Optimization</b>. <br />
+            Moreover, My passion extends to <b>AI research projects</b> and <b>data science</b>, where I actively explore integrating <b>machine learning techniques</b> into web development projects.
           </div>
         </div>
         <svg
