@@ -114,6 +114,10 @@ function Skills(props) {
                             <h3>Medium</h3>
                             <div className="skills-sublist">
                                 <div className="skills-content">
+                                    <img src="/assets/icons/nodejs_logo.png" title='NodeJS' alt="#" className="skills-image" />
+                                    <p>NodeJS</p>
+                                </div>
+                                <div className="skills-content">
                                     <img src="/assets/icons/reactjs_logo.png" title='ReactJS' alt="#" className="skills-image" />
                                     <p>ReactJS</p>
                                 </div>
@@ -135,19 +139,15 @@ function Skills(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="skills-a">
+                        {/* <div className="skills-a">
                             <h3>Basics</h3>
                             <div className="skills-sublist">
-                                <div className="skills-content">
-                                    <img src="/assets/icons/nodejs_logo.png" title='NodeJS' alt="#" className="skills-image" />
-                                    <p>NodeJS</p>
-                                </div>
                                 <div className="skills-content">
                                     <img src="/assets/icons/bootstrap_logo.png" title='Bootstrap' alt="#" className="skills-image" />
                                     <p>Bootstrap</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="skills-domains" data-aos="fade-left">
@@ -225,7 +225,7 @@ function Skills(props) {
                         </div>
                     </div>
                 </div>
-                <div className="skills-domains" data-aos="fade-down">
+                <div className="skills-domains" data-aos="fade-up">
                     <h2 className="skills-domains-header">PROJECT MANAGEMENT</h2>
                     <div className="skills-list">
                         <div className="skills-a">
