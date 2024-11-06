@@ -41,7 +41,7 @@ function About(props) {
               </a>
             </div>
             <div className="about-short">
-              5th-year <b>Computer Science</b> student at INSA Toulouse, pursuing a <b>Mathematics and Optimization</b> double degree with ENAC, fueled by a profound passion for AI.
+              <b>PHD Student</b> at Rouen University, <b>Computer Science</b> Engineer from INSA Toulouse, pursuing a <b>Mathematics and Optimization</b> double degree with ENAC, fueled by a profound passion for AI.
             </div>
             <div className="about-desc">
               My heart lies in web and mobile development, complemented by a keen interest in machine learning and mathematics. Renowned for my autonomy, rigor, and dynamism, I excel in collaborative team environments and relish the challenge of mastering new technologies.

@@ -80,9 +80,9 @@ function Contact(props) {
               <img src="/assets/map.png" alt="Place Icon" className="tel" />
               <a
                 style={{ textDecoration: "none" }}
-                href="https://maps.app.goo.gl/XrBVmap73c1kBm9XA"
+                href="https://maps.app.goo.gl/Jgtvuz3PvqMowBJo7"
               >
-                7 Allée des Sciences Appliquées, Toulouse
+                Théatre des Arts, ROUEN
               </a>
             </div>
           </div>

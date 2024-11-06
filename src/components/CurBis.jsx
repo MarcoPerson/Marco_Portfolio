@@ -14,11 +14,26 @@ function Cursus() {
           Education
         </h1>
         <div className="item">
-          <h4>Operational Research and Optimization</h4>
-          <h5>September 2023 - Today</h5>
+          <h4>PHD Student</h4>
+          <h5>November 2024 - Today</h5>
           <p>
             <em>
-              Ecole Natinal de l'Aviation Civile (ENAC), Toulouse -
+              Université de Rouen Normandie, Rouen -
+              FRANCE
+            </em>
+          </p>
+          {/* <ul>
+            <li>Mathematical optimization for machine learning</li>
+            <li>Deterministic Global Optimization</li>
+            <li>Advanced combinatorial optimisation</li>
+          </ul> */}
+        </div>
+        <div className="item">
+          <h4>Operational Research and Optimization</h4>
+          <h5>September 2023 - October 2024</h5>
+          <p>
+            <em>
+              Ecole Natinale de l'Aviation Civile (ENAC), Toulouse -
               FRANCE
             </em>
           </p>
@@ -30,7 +45,7 @@ function Cursus() {
         </div>
         <div className="item">
           <h4>Computer Science</h4>
-          <h5>September 2021 - Today</h5>
+          <h5>September 2021 - October 2024</h5>
           <p>
             <em>
               Institut National des Sciences Appliquées (INSA), Toulouse -
@@ -131,8 +146,24 @@ function Cursus() {
           Experience
         </h1>
         <div className="item">
+          <h4>AI Research Scientist</h4>
+          <h5>November 2024 - Today</h5>
+          <p>
+            <em>LITIS , Rouen - FRANCE</em>
+          </p>
+          {/* <ul>
+            <li>Conducting an in-depth literature review on utilizing Knowledge Graphs and Large Language Models (LLMs) to enhance entity recognition in aerospace maintenance texts.</li>
+            <li>Performing data preprocessing tasks to ensure optimal quality and relevance for subsequent analysis.</li>
+            <li>Implementing a state-of-the-art solution that integrates Knowledge Graphs and LLMs to improve entity recognition performance in aeronautical maintenance texts.</li>
+            <li>Writing and documenting the research process, findings, and implications for scientific articles.</li>
+          </ul>
+
+          <p style={{fontSize:14}}>This internship provides a unique opportunity to contribute to the forefront of natural language processing for aerospace maintenance, exploring the synergies between knowledge graphs, large language models, and entity recognition.</p> */}
+
+        </div>
+        <div className="item">
           <h4>AI Research Engineer - Data Scientist</h4>
-          <h5>February 2024 - Today</h5>
+          <h5>February 2024 - August 2024</h5>
           <p>
             <em>Capgemini Engineering · Internship, Blagnac - FRANCE</em>
           </p>
