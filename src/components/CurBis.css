@@ -4,13 +4,15 @@
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  justify-content: center;
   gap: 40px;
+  padding: 20px;
   padding-bottom: 40px;
 }
 
 .cursus-title{
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -18,7 +20,8 @@
 
 .left,
 .right {
-  width: 40%;
+  width: 45%;
+  max-width: 800px;
 }
 
 .item {
