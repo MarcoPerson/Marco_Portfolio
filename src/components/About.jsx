@@ -1,11 +1,14 @@
 import React, { useContext, useEffect } from "react";
 import { ThemeContext } from "../darkcontext";
+import { useContent } from "../hooks/useContent";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function About(props) {
   const theme = useContext(ThemeContext);
+  const content = useContent();
+  const { about } = content;
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -21,8 +24,8 @@ function About(props) {
           ></div>
           <div className="about-image">
             <img
-              src="/assets/computer.jpg"
-              alt="Group Work"
+              src={about.imagePath}
+              alt={about.imageAlt}
               className="about-imagepic"
             />
           </div>
@@ -31,34 +34,32 @@ function About(props) {
       <div className="about-right">
         <div className="about-right-wrapper">
           <div className="about-card-upper">
-            <h2 className="about-title">About Me</h2>
+            <h2 className="about-title">{about.title}</h2>
             <div className="linkedin-container">
               <a
                 className="linkedin-button"
-                href="https://www.linkedin.com/in/merveilles-agbeti-messan-3bb03b1ba/"
+                href={about.linkedInUrl}
               >
-                <button>LinkedIn Account</button>
+                <button>{about.linkedInButton}</button>
               </a>
             </div>
-            <div className="about-short">
-              <b>PHD Student</b> at Rouen University, <b>Computer Science</b> Engineer from INSA Toulouse, <b>Mathematics and Optimization</b> double degree with ENAC, fueled by a profound passion for AI.
-            </div>
+            <div className="about-short" dangerouslySetInnerHTML={{ __html: about.shortDescription }} />
             <div className="about-desc">
-              My heart lies in web and mobile development, complemented by a keen interest in machine learning and mathematics. Renowned for my autonomy, rigor, and dynamism, I excel in collaborative team environments and relish the challenge of mastering new technologies.
+              {about.description}
             </div>
 
 
           </div>
           <div className="about-card-lower">
             <div className="award-image">
-              <img src="/assets/icpc.png" alt="" className="award-imagepic" />
+              <img src={about.award.imagePath} alt={about.award.imageAlt} className="award-imagepic" />
             </div>
             <div className="award-body">
               <h4 className="award-title">
-                Second place in the programming contest
+                {about.award.title}
               </h4>
               <div className="award-text">
-                Achieving the feat of being the first to solve problem D, we secured two prizes.
+                {about.award.description}
               </div>
 
             </div>

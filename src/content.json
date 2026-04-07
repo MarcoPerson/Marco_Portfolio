@@ -1,0 +1,474 @@
+{
+  "header": {
+    "greeting": "Hello, My Name is",
+    "name": "Merveilles",
+    "lastName": "AGBETI-MESSAN",
+    "titles": [
+      "AI Research Engineer",
+      "Software Engineer",
+      "Data Scientist"
+    ],
+    "description": [
+      "I develop <b>web and mobile applications</b> for clients.",
+      "I am currently pursuing a PhD in Artificial Intelligence at Rouen University.",
+      "I hold a Computer Science Engineering degree from INSA Toulouse, as well as a Mathematics degree from ENAC, with a focus on <b>Operational Research and Optimization</b>.",
+      "Additionally, I am passionate about <b>research projects</b> and <b>data science</b>, where I actively explore incorporating <b>machine learning techniques</b> into web development projects."
+    ],
+    "resumeButton": "Download My Resume",
+    "resumePath": "/assets/5A_CV_Merveilles_AGBETI_MESSAN_English.pdf",
+    "imagePath": "/assets/Me2.png",
+    "imageAlt": "Me"
+  },
+  "about": {
+    "title": "About Me",
+    "linkedInButton": "LinkedIn Account",
+    "linkedInUrl": "https://www.linkedin.com/in/merveilles-agbeti-messan-3bb03b1ba/",
+    "shortDescription": "<b>PHD Student</b> at Rouen University, <b>Computer Science</b> Engineer from INSA Toulouse, <b>Mathematics and Optimization</b> double degree with ENAC, fueled by a profound passion for AI.",
+    "description": "My heart lies in web and mobile development, complemented by a keen interest in machine learning and mathematics. Renowned for my autonomy, rigor, and dynamism, I excel in collaborative team environments and relish the challenge of mastering new technologies.",
+    "award": {
+      "title": "Second place in the programming contest",
+      "description": "Achieving the feat of being the first to solve problem D, we secured two prizes.",
+      "imagePath": "/assets/icpc.png",
+      "imageAlt": ""
+    },
+    "imagePath": "/assets/computer.jpg",
+    "imageAlt": "Group Work"
+  },
+  "news": {
+    "title": "News",
+    "items": [
+      {
+        "date": "Feb. 2026",
+        "text": "Submitted a paper to ICDAR 2026 on State-Space Models for Historical Newspaper OCR."
+      },
+      {
+        "date": "Nov. 2024",
+        "text": "Started my PhD in Artificial Intelligence at LITIS (Laboratoire d'Informatique, du Traitement de l'Information et des Systèmes), Université de Rouen."
+      },
+      {
+        "date": "Oct. 2024",
+        "text": "Graduated with a Master's degree in Optimization and Applied Mathematics from ENAC (École Nationale de l'Aviation Civile)."
+      },
+      {
+        "date": "Sept. 2024",
+        "text": "Completed Master of Engineering in Computer Science and Networks at INSA Toulouse."
+      },
+      {
+        "date": "Aug. 2024",
+        "text": "Successfully completed AI Research Engineer internship at Capgemini Engineering, developing LLM-based solutions for aviation maintenance text analysis."
+      },
+      {
+        "date": "Feb. 2024",
+        "text": "Started internship as AI Research Engineer at Capgemini Engineering, working on Knowledge Graphs and Large Language Models for entity recognition."
+      },
+      {
+        "date": "Sept. 2023",
+        "text": "Joined ENAC for a double degree in Operational Research and Optimization."
+      },
+      {
+        "date": "Sept. 2023",
+        "text": "Completed Software Engineer internship at Sopra Steria, developing Java services for the French Ministry of Agriculture."
+      },
+      {
+        "date": "Sept. 2022",
+        "text": "Completed Software Engineer internship at We Build Up, developing their company website and improving BIMView code quality."
+      },
+      {
+        "date": "Nov. 2021",
+        "text": "Joined Junior INSA Services as Partnership Officer, later becoming IT Department Officer."
+      }
+    ]
+  },
+  "research": {
+    "title": "Selected Publications",
+    "items": [
+      {
+        "id": 1,
+        "title": "A Benchmark of State-Space Models vs. Transformers and BiLSTM-based Models for Historical Newspaper OCR",
+        "authors": "Merveilles Agbeti-messan, Thierry Paquet, Clément Chatelain, Pierrick Tranouez, Stéphane Nicolas",
+        "venue": "arXiv preprint",
+        "year": "2026",
+        "arxivId": "2604.00725",
+        "arxivUrl": "https://arxiv.org/abs/2604.00725",
+        "type": "preprint",
+        "image": "/assets/research/paper1.png"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "PHD Student",
+        "period": "November 2024 - Today",
+        "institution": "Université de Rouen Normandie, Rouen - FRANCE",
+        "details": []
+      },
+      {
+        "degree": "Operational Research and Optimization",
+        "period": "September 2023 - October 2024",
+        "institution": "Ecole Natinale de l'Aviation Civile (ENAC), Toulouse - FRANCE",
+        "details": [
+          "Mathematical optimization for machine learning",
+          "Deterministic Global Optimization",
+          "Advanced combinatorial optimisation"
+        ]
+      },
+      {
+        "degree": "Computer Science",
+        "period": "September 2021 - October 2024",
+        "institution": "Institut National des Sciences Appliquées (INSA), Toulouse - FRANCE",
+        "details": [
+          {
+            "year": "5th year student Distributed Systems and Big Data",
+            "courses": [
+              "Machine Learning: Supervised and unsupervised",
+              "Virtualization and Cloud computing",
+              "Service-oriented architecture: SOAP, RESTful",
+              "Big Data: Hardware and software infrastructures (storage, computation)",
+              "Deep Learning: YOLO object detection"
+            ]
+          },
+          {
+            "year": "4th year student Computer Science",
+            "courses": [
+              "Artificial Intelligence, Machine Learning, Metaheuristics",
+              "Project management",
+              "Distributed Algorithms",
+              "Law, Finance, Marketing, Organisational Communication"
+            ]
+          },
+          {
+            "year": "3rd year student Modelling, Computer Science and Communication",
+            "courses": [
+              "Numerical Analysis, Optimisation, Markov Chains",
+              "Data Structures and Algorithms, Complexity",
+              "Functional and Object-oriented design and programming",
+              "Operating System and Micro Controller Programming",
+              "Database management (SQL)",
+              "Finance, Corporate Structure and Organisation, Business Simulation"
+            ]
+          }
+        ]
+      },
+      {
+        "degree": "Mathematics and Physics",
+        "period": "October 2019 - August 2021",
+        "institution": "CPGE Ibn Ghazi, Rabat - MAROC",
+        "details": [
+          {
+            "type": "project",
+            "text": "Images Cryptography using Robert May logistic sequence",
+            "link": "/assets/TIPE_La_cryptographie_des_images.pdf",
+            "linkText": "here"
+          },
+          "Activities: BasketBall",
+          "2 years of intensive courses in Mathematics, Physics, Engineering Sciences and IT to prepare for the entrance exams to the best French and Moroccan schools."
+        ]
+      },
+      {
+        "degree": "Computer Science",
+        "period": "September 2018 - June 2019",
+        "institution": "Université de Lomé, Lomé - TOGO",
+        "details": [
+          "Activities: BasketBall",
+          "School : Centre Informatique et de Calcul (CIC)",
+          "A year to see some basics in the following subjects:",
+          "- Programming in C",
+          "- The architecture of the computer",
+          "- Sequential logic circuits and some notions in probability and linear algebra."
+        ]
+      },
+      {
+        "degree": "Mathematics and Physics",
+        "period": "September 2015 - August 2018",
+        "institution": "Lycée Scientifique de Lomé, Lomé - TOGO",
+        "details": [
+          "Activities: Computer Science Club",
+          "Course centered on Mathematics, Physics, Chemistry and Biology.Course centered on Mathematics, Physics, Chemistry and Biology.",
+          "Baccalaureat : With Highest Honour"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "title": "AI Research Scientist",
+        "period": "November 2024 - Today",
+        "company": "LITIS , Rouen - FRANCE",
+        "details": []
+      },
+      {
+        "title": "AI Research Engineer - Data Scientist",
+        "period": "February 2024 - August 2024",
+        "company": "Capgemini Engineering · Internship, Blagnac - FRANCE",
+        "details": [
+          "Conducting an in-depth literature review on utilizing Knowledge Graphs and Large Language Models (LLMs) to enhance entity recognition in aerospace maintenance texts.",
+          "Performing data preprocessing tasks to ensure optimal quality and relevance for subsequent analysis.",
+          "Implementing a state-of-the-art solution that integrates Knowledge Graphs and LLMs to improve entity recognition performance in aeronautical maintenance texts.",
+          "Writing and documenting the research process, findings, and implications for scientific articles."
+        ],
+        "note": "This internship provides a unique opportunity to contribute to the forefront of natural language processing for aerospace maintenance, exploring the synergies between knowledge graphs, large language models, and entity recognition."
+      },
+      {
+        "title": "IT Department & Partnerships Officer",
+        "period": "November 2021 - November 2023",
+        "company": "Junior INSA Services, Toulouse - France",
+        "details": [
+          "Maintain and optimize IT tools for team use.",
+          "Develop tools to enhance Junior Enterprise performance.",
+          "Cultivate and sustain enduring relationships with JIS partners.",
+          "Enhance, improve, and perpetuate relationships with JIS partners.",
+          "Foster the development and improvement of tools for team efficiency."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "period": "June 2023 - September 2023",
+        "company": "Sopra Steria · Internship, Colomiers - FRANCE",
+        "details": [
+          "Developed Java services for the French Ministry of Agriculture, enhancing digital infrastructure and efficiency.",
+          "Mastered the Java Orion framework to work on PAGODE, a secure application for electronic declarations and fishing activities, as well as LOGICS, an application for agricultural operation authorization.",
+          "Worked on 100+ Jira test cases for TeleAgape, ensuring the reliability of fishing permit requests."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "period": "June 2022 - September 2022",
+        "company": "We Build Up · Internship, Versailles - FRANCE",
+        "details": [
+          "Increased BIMView TypeScript code readability by over 10% by reformatting NextJS components and CSS objects.",
+          "Assured Quality Assurance by writing components and hooks unit and integration tests and multiple end to end tests using Jest and PlayWright.",
+          {
+            "type": "link",
+            "text": "Developed the company website using NextJS and TailWindCSS.",
+            "url": "https://webuildup.io",
+            "linkText": "WeBuildUp"
+          }
+        ]
+      },
+      {
+        "title": "Python Developper",
+        "period": "August 2019 - September 2019",
+        "company": "StaroCity, Lomé - TOGO",
+        "details": [
+          "Designed and Created a Desktop App using Python and PyQT5 to create usernames and passwords for a WiFi center according to the time paid.",
+          "Increased the efficiency by 100% by eliminating the possibility of duplicate and increased the speed via python decorators."
+        ]
+      },
+      {
+        "title": "Mathematics and Physics Teacher",
+        "period": "November 2018 - May 2019",
+        "company": "Independent, Lomé - TOGO",
+        "details": [
+          "Helped high school students to master the basics of mathematics and physics."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Some Of My Free Time Projects",
+    "description": "Here are some projects i did during my free time. Some backend projects here",
+    "replitButton": "Replit",
+    "replitUrl": "https://replit.com/@MarcoPerson",
+    "githubText": "My repository and other Python, C, Java projects here",
+    "githubButton": "GitHub",
+    "githubUrl": "https://github.com/MarcoPerson"
+  },
+  "certifications": {
+    "title": "Some Of My Certifications"
+  },
+  "skills": {
+    "title": "Skills",
+    "domains": [
+      {
+        "name": "PROGRAMMING",
+        "levels": [
+          {
+            "level": "Advanced",
+            "items": [
+              { "name": "Java", "icon": "/assets/icons/java_logo.png" },
+              { "name": "Python", "icon": "/assets/icons/python_logo.png" },
+              { "name": "Numpy", "icon": "/assets/icons/numpy_logo.png" },
+              { "name": "Pandas", "icon": "/assets/icons/pandas_logo.png" }
+            ]
+          },
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "C", "icon": "/assets/icons/c_logo.png" },
+              { "name": "Scikit-Learn", "icon": "/assets/icons/scikit_logo.png" },
+              { "name": "PyTorch", "icon": "/assets/icons/torch_logo.png" },
+              { "name": "QT", "icon": "/assets/icons/qt_logo.png" }
+            ]
+          },
+          {
+            "level": "Basics",
+            "items": [
+              { "name": "C#", "icon": "/assets/icons/csharp_logo.png" },
+              { "name": "Ocaml", "icon": "/assets/icons/ocaml_logo.png" },
+              { "name": "TensorFlow", "icon": "/assets/icons/tensorflow_logo.png" },
+              { "name": "Keras", "icon": "/assets/icons/keras_logo.png" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WEB",
+        "levels": [
+          {
+            "level": "Advanced",
+            "items": [
+              { "name": "HTML", "icon": "/assets/icons/html_logo.png" },
+              { "name": "CSS", "icon": "/assets/icons/css_logo.png" },
+              { "name": "JavaScript", "icon": "/assets/icons/javascript_logo.png" },
+              { "name": "MySQL", "icon": "/assets/icons/mysql_logo.png" },
+              { "name": "TailWindCSS", "icon": "/assets/icons/tailwind-logo.png" }
+            ]
+          },
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "NodeJS", "icon": "/assets/icons/nodejs_logo.png" },
+              { "name": "ReactJS", "icon": "/assets/icons/reactjs_logo.png" },
+              { "name": "Angular", "icon": "/assets/icons/angular_logo.png" },
+              { "name": "NextJS", "icon": "/assets/icons/nextjs_logo.png" },
+              { "name": "MongoDB", "icon": "/assets/icons/mongodb_logo.png" },
+              { "name": "PostgreSQL", "icon": "/assets/icons/postgresql_logo.png" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SPEAKING",
+        "levels": [
+          {
+            "level": "Advanced",
+            "items": [
+              { "name": "French", "icon": "/assets/icons/france_logo.png" },
+              { "name": "Ewé", "icon": "/assets/icons/togo_logo.png" }
+            ]
+          },
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "English", "icon": "/assets/icons/britain_logo.png" }
+            ]
+          },
+          {
+            "level": "Basics",
+            "items": [
+              { "name": "Japanese", "icon": "/assets/icons/japan_logo.png" }
+            ]
+          }
+          
+        ]
+      },
+      {
+        "name": "TECH",
+        "levels": [
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "Azure", "icon": "/assets/icons/azure_logo.png" },
+              { "name": "OpenStack", "icon": "/assets/icons/openstack_logo.png" },
+              { "name": "Hadoop", "icon": "/assets/icons/hadoop_logo.png" }
+            ]
+          },
+          {
+            "level": "Basics",
+            "items": [
+              { "name": "Spark", "icon": "/assets/icons/spark_logo.png" },
+              { "name": "Cassandra", "icon": "/assets/icons/cassandra_logo.png" },
+              { "name": "Neo4j", "icon": "/assets/icons/neo4j_logo.png" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PROJECT MANAGEMENT",
+        "levels": [
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "Git", "icon": "/assets/icons/git_logo.png" },
+              { "name": "GitHub", "icon": "/assets/icons/github_logo.png" },
+              { "name": "GitLab", "icon": "/assets/icons/gitlab_logo.png" }
+            ]
+          },
+          {
+            "level": "Basics",
+            "items": [
+              { "name": "Bitbucket", "icon": "/assets/icons/bitbucket_logo.png" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UI/UX",
+        "levels": [
+          {
+            "level": "Medium",
+            "items": [
+              { "name": "Photoshop", "icon": "/assets/icons/photoshop_logo.png" }
+            ]
+          },
+          {
+            "level": "Basics",
+            "items": [
+              { "name": "Figma", "icon": "/assets/icons/figma_logo.png" },
+              { "name": "XD", "icon": "/assets/icons/xd_logo.png" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's discuss",
+    "titleLine2": "your project",
+    "phone": "+33 7 55 88 62 54",
+    "email": "merveillesagbeti@gmail.com",
+    "location": "Théatre des Arts, ROUEN",
+    "locationUrl": "https://maps.app.goo.gl/Jgtvuz3PvqMowBJo7",
+    "intro": {
+      "question": "What's your story ?",
+      "text": "Get in touch. Always available for your projects. You have the right project? Come along me."
+    },
+    "form": {
+      "namePlaceholder": "Your Name",
+      "subjectPlaceholder": "The Subject",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "submitButton": "Send",
+      "successMessage": "Your message has been sent !!",
+      "errors": {
+        "nameRequired": "Name is required",
+        "nameMaxLength": "Max length exceeded",
+        "subjectRequired": "Subject is required",
+        "subjectMaxLength": "Max length exceeded",
+        "emailRequired": "Email is required",
+        "messageRequired": "A message is required"
+      }
+    },
+    "icons": {
+      "phone": "/assets/tel.png",
+      "email": "/assets/email.png",
+      "location": "/assets/map.png"
+    }
+  },
+  "meta": {
+    "title": "Merveilles AGBETI-MESSAN - Computer Science Student",
+    "description": "Personal website of Merveilles AGBETI-MESSAN",
+    "author": "Merveilles AGBETI-MESSAN",
+    "keywords": "portfolio, merveilles, agbeti-messan, agbeti, epe-nsin, marco, komlan, merveilles agbeti-messan, insa, insa toulouse, computer science, software engineer, marco portfolio",
+    "url": "https://marco-portfolio.vercel.app",
+    "siteName": "Merveilles AGBETI-MESSAN",
+    "ogTitle": "Merveilles AGBETI-MESSAN - Portfolio",
+    "ogDescription": "Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse.",
+    "ogImage": "https://marco-portfolio.vercel.app/image.jpg",
+    "twitterCard": "summary_large_image"
+  }
+}

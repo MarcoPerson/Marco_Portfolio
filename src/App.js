@@ -9,13 +9,19 @@ import Skills from "./components/Skills";
 import Toggle from "./components/Toggle";
 import CurBis from "./components/CurBis";
 import Certifs from "./components/Certifs";
+import News from "./components/News";
+import Research from "./components/Research";
 import { ThemeContext } from "./darkcontext";
+import { useContent } from "./hooks/useContent";
 import { HelmetProvider } from "react-helmet-async";
 import { Helmet } from "react-helmet-async";
 import { clarity } from "react-microsoft-clarity";
 
 function App() {
   const theme = useContext(ThemeContext);
+  const content = useContent();
+  const { meta } = content;
+
   useEffect(() => {
     clarity.init("gd67juaw60");
   }, [])
@@ -30,39 +36,41 @@ function App() {
         }}
       >
         <Helmet>
-          <title>Merveilles AGBETI-MESSAN - Computer Science Student</title>
+          <title>{meta.title}</title>
           <meta
             name="description"
-            content="Personal website of Merveilles AGBETI-MESSAN"
+            content={meta.description}
           />
 
-<link rel="canonical" href="https://marco-portfolio.vercel.app"/>
+<link rel="canonical" href={meta.url}/>
 
-          <meta name="author" content="Merveilles AGBETI-MESSAN" />
-          <meta name="keywords" content="portfolio, merveilles, agbeti-messan, agbeti, epe-nsin, marco, komlan, merveilles agbeti-messan, insa, insa toulouse, computer science, software engineer, marco portfolio" />
+          <meta name="author" content={meta.author} />
+          <meta name="keywords" content={meta.keywords} />
           <meta property="og:locale" content="en_US"/>
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Merveilles AGBETI-MESSAN - Portfolio" />
-          <meta property="og:description" content="Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse." />
-          <meta property="og:url" content="https://marco-portfolio.vercel.app" />
-          <meta property="og:site_name" content="Merveilles AGBETI-MESSAN"/>
-          <meta property="og:image" content="https://marco-portfolio.vercel.app/image.jpg" />
+          <meta property="og:title" content={meta.ogTitle} />
+          <meta property="og:description" content={meta.ogDescription} />
+          <meta property="og:url" content={meta.url} />
+          <meta property="og:site_name" content={meta.siteName}/>
+          <meta property="og:image" content={meta.ogImage} />
           <meta property="og:image:width" content="1200"/>
           <meta property="og:image:height" content="630"/>
           <meta property="og:image:type" content="image/jpeg"/>
 
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image" content="https://marco-portfolio.vercel.app/image.jpg" />
-          <meta name="twitter:url" content="https://marco-portfolio.vercel.app" />
-          <meta name="twitter:title" content="Merveilles AGBETI-MESSAN - Portfolio" />
-          <meta name="twitter:description" content="Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse." />
+          <meta name="twitter:card" content={meta.twitterCard} />
+          <meta name="twitter:image" content={meta.ogImage} />
+          <meta name="twitter:url" content={meta.url} />
+          <meta name="twitter:title" content={meta.ogTitle} />
+          <meta name="twitter:description" content={meta.ogDescription} />
 
-          <link rel="shortlink" href="https://marco-portfolio.vercel.app"/>
+          <link rel="shortlink" href={meta.url}/>
         </Helmet>
         <Toggle />
         <Header />
         <About />
+        <News />
         <CurBis />
+        <Research />
         <Projects />
         <Skills />
         <Certifs />

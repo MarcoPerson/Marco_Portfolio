@@ -2,40 +2,46 @@ import React, { useEffect, useContext } from "react";
 import "./Header.css";
 import AOS from "aos";
 import { ThemeContext } from "../darkcontext";
+import { useContent } from "../hooks/useContent";
 
 import "aos/dist/aos.css";
 
 function Header(props) {
   const theme = useContext(ThemeContext);
+  const content = useContent();
+  const { header } = content;
+
   useEffect(() => {
     AOS.init({ duration: 3000 });
   }, []);
   return (
     <div className="intro" data-aos="zoom-in" data-aos-delay={500}>
       <a
-        href="/assets/5A_CV_Merveilles_AGBETI_MESSAN_English.pdf"
+        href={header.resumePath}
         className="download-resume"
       >
-        <button>Download My Resume</button>
+        <button>{header.resumeButton}</button>
       </a>
       <div className="intro-left">
         <div className="intro-left-wrapper">
-          <h2 className="intro-text">Hello, My Name is</h2>
+          <h2 className="intro-text">{header.greeting}</h2>
           <h1 className="intro-name">
-            Merveilles <br className="introname-cutter" /> AGBETI-MESSAN
+            {header.name} <br className="introname-cutter" /> {header.lastName}
           </h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
-              <div className="intro-title-item">AI Research Engineer</div>
-              <div className="intro-title-item">Software Engineer</div>
-              <div className="intro-title-item">Data Scientist</div>
+              {header.titles.map((title, index) => (
+                <div key={index} className="intro-title-item">{title}</div>
+              ))}
             </div>
           </div>
           <div className="intro-desc">
-            I develop <b>web and mobile applications</b> for clients.<br />
-            I am currently pursuing a PhD in Artificial Intelligence at Rouen University.<br />
-            I hold a Computer Science Engineering degree from INSA Toulouse, as well as a Mathematics degree from ENAC, with a focus on <b>Operational Research and Optimization</b>.<br />
-            Additionally, I am passionate about <b>research projects</b> and <b>data science</b>, where I actively explore incorporating <b>machine learning techniques</b> into web development projects.
+            {header.description.map((line, index) => (
+              <React.Fragment key={index}>
+                <span dangerouslySetInnerHTML={{ __html: line }} />
+                {index < header.description.length - 1 && <br />}
+              </React.Fragment>
+            ))}
           </div>
         </div>
         <svg
@@ -98,7 +104,7 @@ function Header(props) {
       <div className="intro-right" data-aos-delay={2000}>
         <div className="intro-background"></div>
         <div className="intro-image">
-          <img src="/assets/Me2.png" alt="Me" />
+          <img src={header.imagePath} alt={header.imageAlt} />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
+import { useContent } from "../hooks/useContent";
 
 import { ThemeContext } from "../darkcontext";
 import AOS from "aos";
@@ -11,6 +12,9 @@ function Contact(props) {
   const formRef = useRef();
   const [send, setSend] = useState(false);
   const theme = useContext(ThemeContext);
+  const content = useContent();
+  const { contact } = content;
+
   const {
     register,
     handleSubmit,
@@ -33,7 +37,7 @@ function Contact(props) {
           setTimeout(() => {
             setSend(false);
           }, 5000);
-          
+
           resetField("username");
           resetField("subject");
           resetField("email");
@@ -55,34 +59,34 @@ function Contact(props) {
       <div className="contact-wrapper">
         <div className="contact-left">
           <h1>
-            Let's discuss <br /> your project
+            {contact.title} <br /> {contact.titleLine2}
           </h1>
           <div className="contact-info">
             <div className="contact-tel">
-              <img src="/assets/tel.png" alt="Tel Icon" className="tel" />
+              <img src={contact.icons.phone} alt="Tel Icon" className="tel" />
               <a
                 style={{ textDecoration: "none" }}
-                href="tel:+33 7 55 88 62 54"
+                href={`tel:${contact.phone}`}
               >
-                +33 7 55 88 62 54
+                {contact.phone}
               </a>
             </div>
             <div className="contact-mail">
-              <img src="/assets/email.png" alt="Email Icon" className="tel" />
+              <img src={contact.icons.email} alt="Email Icon" className="tel" />
               <a
                 style={{ textDecoration: "none" }}
-                href="mailto:merveillesagbeti@gmail.com"
+                href={`mailto:${contact.email}`}
               >
-                merveillesagbeti@gmail.com
+                {contact.email}
               </a>
             </div>
             <div className="contact-place">
-              <img src="/assets/map.png" alt="Place Icon" className="tel" />
+              <img src={contact.icons.location} alt="Place Icon" className="tel" />
               <a
                 style={{ textDecoration: "none" }}
-                href="https://maps.app.goo.gl/Jgtvuz3PvqMowBJo7"
+                href={contact.locationUrl}
               >
-                Théatre des Arts, ROUEN
+                {contact.location}
               </a>
             </div>
           </div>
@@ -93,10 +97,9 @@ function Contact(props) {
               style={{ color: theme.state.darkMode && "white" }}
               className="contact-question"
             >
-              What's your story ?{" "}
+              {contact.intro.question}{" "}
             </span>
-            Get in touch. Always available for your projects. You have the right
-            project? Come along me.
+            {contact.intro.text}
           </div>
           <form
             className="contact-form"
@@ -113,13 +116,13 @@ function Contact(props) {
               name="username"
               id="U"
               className="form-name"
-              placeholder="Your Name"
+              placeholder={contact.form.namePlaceholder}
             />
             {errors.username && errors.username.type === "required" && (
-              <p>Name is required</p>
+              <p>{contact.form.errors.nameRequired}</p>
             )}
             {errors.username && errors.username.type === "maxLength" && (
-              <p>Max length exceeded</p>
+              <p>{contact.form.errors.nameMaxLength}</p>
             )}
             <input
               style={{
@@ -131,13 +134,13 @@ function Contact(props) {
               name="subject"
               id="S"
               className="form-subject"
-              placeholder="The Subject"
+              placeholder={contact.form.subjectPlaceholder}
             />
             {errors.subject && errors.subject.type === "required" && (
-              <p>Subject is required</p>
+              <p>{contact.form.errors.subjectRequired}</p>
             )}
             {errors.subject && errors.subject.type === "maxLength" && (
-              <p>Max length exceeded</p>
+              <p>{contact.form.errors.subjectMaxLength}</p>
             )}
             <input
               style={{
@@ -149,10 +152,10 @@ function Contact(props) {
               name="email"
               id="E"
               className="form-email"
-              placeholder="Your Email"
+              placeholder={contact.form.emailPlaceholder}
             />
             {errors.email && errors.email.type === "required" && (
-              <p>Email is required</p>
+              <p>{contact.form.errors.emailRequired}</p>
             )}
             <textarea
               style={{
@@ -164,20 +167,20 @@ function Contact(props) {
               id="M"
               cols="30"
               rows="5"
-              placeholder="Your Message"
+              placeholder={contact.form.messagePlaceholder}
             ></textarea>
             {errors.message && errors.message.type === "required" && (
-              <p>A message is required</p>
+              <p>{contact.form.errors.messageRequired}</p>
             )}
             <button
               style={{ backgroundColor: theme.state.darkMode && "#333" }}
               type="submit"
               className="form-buttom"
             >
-              Send
+              {contact.form.submitButton}
             </button>
             {send && (
-              <div className="send-success"> Your message has been sent !!</div>
+              <div className="send-success">{contact.form.successMessage}</div>
             )}
           </form>
         </div>
