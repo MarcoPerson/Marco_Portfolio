@@ -12,7 +12,7 @@ function Header(props) {
   const { header } = content;
 
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className="intro" data-aos="zoom-in" data-aos-delay={500}>

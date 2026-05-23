@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function Certif({data}) {
     const theme = useContext(ThemeContext);
     useEffect(() => {
-        AOS.init({duration: 2000});
+        AOS.init({duration: 1000});
     },[])
     return (
         <div className='certif' style={{borderColor: theme.state.darkMode ? "black" : "#f3f2f2"}} data-aos="fade-left">

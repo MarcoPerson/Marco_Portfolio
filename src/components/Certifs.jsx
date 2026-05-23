@@ -11,7 +11,7 @@ function Certifs(props) {
     const { certifications } = content;
 
     useEffect(() => {
-        AOS.init({duration: 2000});
+        AOS.init({duration: 1000});
     },[])
     return (
         <div className='projects'>

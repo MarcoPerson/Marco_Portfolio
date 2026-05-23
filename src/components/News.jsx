@@ -9,7 +9,7 @@ function News() {
     const { news } = content;
 
     useEffect(() => {
-        AOS.init({ duration: 600 });
+        AOS.init({ duration: 300 });
     }, []);
 
     return (
