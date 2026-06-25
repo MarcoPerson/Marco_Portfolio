@@ -38,6 +38,14 @@
     "title": "News",
     "items": [
       {
+        "date": "Jun. 2026",
+        "text": "Paper accepted at ICDARW HIP 2026 on Understanding the Structure of Newspaper Images"
+      },
+      {
+        "date": "Jun. 2026",
+        "text": "First Author paper accepted at ICDARW WML 2026 on Scaling of State-Space Models."
+      },
+      {
         "date": "May. 2026",
         "text": "Submitted a paper to ICDARW WML 2026 on Scaling of State-Space Models."
       },
@@ -101,13 +109,24 @@
       {
         "id": 1,
         "title": "A Benchmark of State-Space Models vs. Transformers and BiLSTM-based Models for Historical Newspaper OCR",
-        "authors": "Merveilles Agbeti-messan, Thierry Paquet, Clément Chatelain, Pierrick Tranouez, Stéphane Nicolas",
+        "authors": "Merveilles Agbeti-Messan, Pierrick Tranouez, Stéphane Nicolas, Clément Chatelain, Thierry Paquet",
         "venue": "arXiv preprint",
         "year": "2026",
         "arxivId": "2604.00725",
         "arxivUrl": "https://arxiv.org/abs/2604.00725",
         "type": "preprint",
         "image": "/assets/research/paper1.png"
+      },
+      {
+        "id": 2,
+        "title": "Scaling State-Space Models from Lines to Paragraphs: An Ablation of Mamba-based OCR",
+        "authors": "Merveilles Agbeti-Messan, Pierrick Tranouez, Stéphane Nicolas, Clément Chatelain, Thierry Paquet",
+        "venue": "arXiv preprint",
+        "year": "2026",
+        "arxivId": "2606.23524",
+        "arxivUrl": "https://arxiv.org/abs/2606.23524",
+        "type": "preprint",
+        "image": "/assets/research/paper2.png"
       }
     ]
   },
