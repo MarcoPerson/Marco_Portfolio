@@ -1,14 +1,16 @@
+"use client";
+
 import React, { useContext, useEffect, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-import { useContent } from "../hooks/useContent";
+import { useContent } from "@/hooks/useContent";
 
-import { ThemeContext } from "../darkcontext";
+import { ThemeContext } from "@/context/darkcontext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Contact(props) {
+function Contact() {
   const formRef = useRef();
   const [send, setSend] = useState(false);
   const theme = useContext(ThemeContext);
@@ -19,10 +21,10 @@ function Contact(props) {
     register,
     handleSubmit,
     formState: { errors },
-    resetField
+    resetField,
   } = useForm();
 
-  const sendMail = (e) => {
+  const sendMail = () => {
     emailjs
       .sendForm(
         "service_tzbjc1i",
@@ -81,11 +83,12 @@ function Contact(props) {
               </a>
             </div>
             <div className="contact-place">
-              <img src={contact.icons.location} alt="Place Icon" className="tel" />
-              <a
-                style={{ textDecoration: "none" }}
-                href={contact.locationUrl}
-              >
+              <img
+                src={contact.icons.location}
+                alt="Place Icon"
+                className="tel"
+              />
+              <a style={{ textDecoration: "none" }} href={contact.locationUrl}>
                 {contact.location}
               </a>
             </div>
@@ -94,7 +97,7 @@ function Contact(props) {
         <div className="contact-right">
           <div className="contact-intro">
             <span
-              style={{ color: theme.state.darkMode && "white" }}
+              style={{ color: theme.state.darkMode ? "white" : undefined }}
               className="contact-question"
             >
               {contact.intro.question}{" "}
@@ -108,8 +111,8 @@ function Contact(props) {
           >
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
+                backgroundColor: theme.state.darkMode ? "#333" : undefined,
+                color: theme.state.darkMode ? "white" : undefined,
               }}
               type="text"
               {...register("username", { required: true, maxLength: 30 })}
@@ -126,8 +129,8 @@ function Contact(props) {
             )}
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
+                backgroundColor: theme.state.darkMode ? "#333" : undefined,
+                color: theme.state.darkMode ? "white" : undefined,
               }}
               type="text"
               {...register("subject", { required: true, maxLength: 30 })}
@@ -144,8 +147,8 @@ function Contact(props) {
             )}
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
+                backgroundColor: theme.state.darkMode ? "#333" : undefined,
+                color: theme.state.darkMode ? "white" : undefined,
               }}
               type="email"
               {...register("email", { required: true })}
@@ -159,8 +162,8 @@ function Contact(props) {
             )}
             <textarea
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
+                backgroundColor: theme.state.darkMode ? "#333" : undefined,
+                color: theme.state.darkMode ? "white" : undefined,
               }}
               {...register("message", { required: true })}
               name="message"
@@ -173,7 +176,9 @@ function Contact(props) {
               <p>{contact.form.errors.messageRequired}</p>
             )}
             <button
-              style={{ backgroundColor: theme.state.darkMode && "#333" }}
+              style={{
+                backgroundColor: theme.state.darkMode ? "#333" : undefined,
+              }}
               type="submit"
               className="form-buttom"
             >

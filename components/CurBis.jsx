@@ -1,10 +1,12 @@
+"use client";
+
 import React, { useEffect } from "react";
 import AOS from "aos";
-import { useContent } from "../hooks/useContent";
+import { useContent } from "@/hooks/useContent";
 import "aos/dist/aos.css";
 import "./CurBis.css";
 
-function Cursus() {
+function CurBis() {
   const content = useContent();
   const { education, experience } = content;
 
@@ -13,22 +15,29 @@ function Cursus() {
   }, []);
 
   const renderDetail = (detail, index) => {
-    if (typeof detail === 'string') {
+    if (typeof detail === "string") {
       return <li key={index}>{detail}</li>;
     }
-    if (detail.type === 'project') {
+    if (detail.type === "project") {
       return (
         <li key={index}>
-          <mark>Project</mark> : {detail.text} <br /> The presentation support is{" "}
-          <a className='projects-github' href={detail.link}> <button>{detail.linkText}</button></a>
+          <mark>Project</mark> : {detail.text} <br /> The presentation support
+          is{" "}
+          <a className="projects-github" href={detail.link}>
+            {" "}
+            <button>{detail.linkText}</button>
+          </a>
         </li>
       );
     }
-    if (detail.type === 'link') {
+    if (detail.type === "link") {
       return (
         <li key={index}>
           {detail.text}
-          <a className='projects-github' href={detail.url}> <button>{detail.linkText}</button></a>
+          <a className="projects-github" href={detail.url}>
+            {" "}
+            <button>{detail.linkText}</button>
+          </a>
         </li>
       );
     }
@@ -54,7 +63,13 @@ function Cursus() {
           {education.title}
         </h1>
         {education.items.map((item, index) => (
-          <div className="item" key={index} style={index === education.items.length - 1 ? { paddingBottom: 0 } : {}}>
+          <div
+            className="item"
+            key={index}
+            style={
+              index === education.items.length - 1 ? { paddingBottom: 0 } : {}
+            }
+          >
             <h4>{item.degree}</h4>
             <h5>{item.period}</h5>
             <p>
@@ -73,7 +88,13 @@ function Cursus() {
           {experience.title}
         </h1>
         {experience.items.map((item, index) => (
-          <div className="item" key={index} style={index === experience.items.length - 1 ? { paddingBottom: 0 } : {}}>
+          <div
+            className="item"
+            key={index}
+            style={
+              index === experience.items.length - 1 ? { paddingBottom: 0 } : {}
+            }
+          >
             <h4>{item.title}</h4>
             <h5>{item.period}</h5>
             <p>
@@ -84,9 +105,7 @@ function Cursus() {
                 {item.details.map((detail, idx) => renderDetail(detail, idx))}
               </ul>
             )}
-            {item.note && (
-              <p style={{fontSize:14}}>{item.note}</p>
-            )}
+            {item.note && <p style={{ fontSize: 14 }}>{item.note}</p>}
           </div>
         ))}
       </div>
@@ -94,4 +113,4 @@ function Cursus() {
   );
 }
 
-export default Cursus;
+export default CurBis;

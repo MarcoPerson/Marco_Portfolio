@@ -499,11 +499,11 @@
     "description": "Personal website of Merveilles AGBETI-MESSAN",
     "author": "Merveilles AGBETI-MESSAN",
     "keywords": "portfolio, merveilles, agbeti-messan, agbeti, epe-nsin, marco, komlan, merveilles agbeti-messan, insa, insa toulouse, computer science, software engineer, marco portfolio",
-    "url": "https://marco-portfolio.vercel.app",
+    "url": "https://merveillesagbetimessan.vercel.app",
     "siteName": "Merveilles AGBETI-MESSAN",
     "ogTitle": "Merveilles AGBETI-MESSAN - Portfolio",
     "ogDescription": "Personal Portfolio Website for Merveilles AGBETI-MESSAN, a Computer Science Student at INSA Toulouse.",
-    "ogImage": "https://marco-portfolio.vercel.app/image.jpg",
+    "ogImage": "https://merveillesagbetimessan.vercel.app/image.jpg",
     "twitterCard": "summary_large_image"
   }
 }

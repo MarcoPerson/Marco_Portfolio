@@ -1,46 +1,27 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "marco-portfolio",
+  "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": ">=18.x"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^3.6.2",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "aos": "^3.0.0-beta.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-helmet-async": "^1.3.0",
-    "react-hook-form": "^7.35.0",
-    "react-microsoft-clarity": "^1.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "node": ">=18.17.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "aos": "^3.0.0-beta.6",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-microsoft-clarity": "^1.2.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5"
   }
 }

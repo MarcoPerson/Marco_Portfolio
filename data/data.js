@@ -2,7 +2,7 @@ export const projectsData = [
     {
         id: 0,
         img: "/assets/portfolio.png",
-        link: "https://marco-portfolio.pages.dev/",
+        link: "https://merveillesagbetimessan.vercel.app/",
         alt: "My Portfolio Image",
         tools: ["ReactJS", "EmailJS"]
     },

@@ -1,12 +1,14 @@
+"use client";
+
 import React, { useEffect, useContext } from "react";
 import "./Header.css";
 import AOS from "aos";
-import { ThemeContext } from "../darkcontext";
-import { useContent } from "../hooks/useContent";
+import { ThemeContext } from "@/context/darkcontext";
+import { useContent } from "@/hooks/useContent";
 
 import "aos/dist/aos.css";
 
-function Header(props) {
+function Header() {
   const theme = useContext(ThemeContext);
   const content = useContent();
   const { header } = content;
@@ -16,10 +18,7 @@ function Header(props) {
   }, []);
   return (
     <div className="intro" data-aos="zoom-in" data-aos-delay={500}>
-      <a
-        href={header.resumePath}
-        className="download-resume"
-      >
+      <a href={header.resumePath} className="download-resume">
         <button>{header.resumeButton}</button>
       </a>
       <div className="intro-left">
@@ -31,7 +30,9 @@ function Header(props) {
           <div className="intro-title">
             <div className="intro-title-wrapper">
               {header.titles.map((title, index) => (
-                <div key={index} className="intro-title-item">{title}</div>
+                <div key={index} className="intro-title-item">
+                  {title}
+                </div>
               ))}
             </div>
           </div>
@@ -57,45 +58,45 @@ function Header(props) {
             <path
               id="Vector"
               d="M40.5 15L34.5 9L28.5 15"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               id="Vector_2"
               d="M28.5 24L34.5 30L40.5 24"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <g id="Group">
               <path
                 id="Vector_3"
                 d="M9 37.5H60"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
             <path
               id="Vector_4"
               d="M34.5 27V9"
-              stroke-width="2.9895"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2.9895"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <g id="Group_2">
               <path
                 id="Vector_5"
                 d="M9 27C9 12.918 20.418 1.5 34.5 1.5C48.5859 1.5 60 12.918 60 27C60 29.8906 60 45.1094 60 48C60 62.082 48.5859 73.5 34.5 73.5C20.418 73.5 9 62.082 9 48C9 45.1094 9 29.8906 9 27Z"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
