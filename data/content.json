@@ -114,24 +114,24 @@
         "id": 3,
         "title": "Towards Hierarchical Structure Understanding of Newspaper Images",
         "authors": "William Mocaër, Solène Tarride, Thomas Constum, Merveilles Agbeti-Messan, Tom Simon, Clément Chatelain, Stéphane Nicolas, Pierrick Tranouez, Sébastien Cretin, Thierry Paquet",
-        "venue": "arXiv preprint",
+        "venue": "ICDAR HIP 2026",
         "year": "2026",
         "arxivId": "2607.15082",
         "arxivUrl": "https://arxiv.org/abs/2607.15082",
         "conferenceBadge": "ICDAR HIP 2026",
-        "type": "preprint",
+        "type": "workshop",
         "image": "/assets/research/paper3.png"
       },
         {
         "id": 2,
         "title": "Scaling State-Space Models from Lines to Paragraphs: An Ablation of Mamba-based OCR",
         "authors": "Merveilles Agbeti-Messan, Pierrick Tranouez, Stéphane Nicolas, Clément Chatelain, Thierry Paquet",
-        "venue": "arXiv preprint",
+        "venue": "ICDAR WML 2026",
         "year": "2026",
         "arxivId": "2606.23524",
         "arxivUrl": "https://arxiv.org/abs/2606.23524",
         "conferenceBadge": "ICDAR WML 2026",
-        "type": "preprint",
+        "type": "workshop",
         "image": "/assets/research/paper2.png"
       },
       {

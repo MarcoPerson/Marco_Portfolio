@@ -20,6 +20,8 @@ function Research() {
         return "badge-conference";
       case "journal":
         return "badge-journal";
+      case "workshop":
+        return "badge-workshop";
       case "preprint":
         return "badge-preprint";
       default:
@@ -93,11 +95,6 @@ function Research() {
                   </span>
                   <span className="research-year">{paper.year}</span>
                 </div>
-                {paper.highlight && (
-                  <div className="research-highlight">
-                    {paper.highlight}
-                  </div>
-                )}
                 <h3 className="research-paper-title">{paper.title}</h3>
                 <p
                   className="research-authors"
@@ -107,7 +104,12 @@ function Research() {
                       "<strong>Merveilles AGBETI-MESSAN</strong>"
                     ),
                   }}
-                />
+                  />
+                {paper.highlight && (
+                  <div className="research-highlight">
+                    {paper.highlight}
+                  </div>
+                )}
                 <div className="research-venue">
                   <span>{paper.venue}</span>
                   {paper.arxivId && (

@@ -135,6 +135,11 @@
     color: #fff;
 }
 
+.badge-workshop {
+    background: linear-gradient(135deg, #ffa751 0%, #ffe259 100%);
+    color: #333;
+}
+
 .badge-journal {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     color: #fff;
