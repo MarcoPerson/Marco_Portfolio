@@ -51,6 +51,16 @@ function Research() {
                 )}
                 <div className="research-overlay">
                   <div className="research-links">
+                    {paper.conferenceUrl && (
+                      <a
+                        href={paper.conferenceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="research-link"
+                      >
+                        Conference
+                      </a>
+                    )}
                     {paper.arxivUrl && (
                       <a
                         href={paper.arxivUrl}
@@ -79,12 +89,25 @@ function Research() {
                   <span
                     className={`research-badge ${getBadgeClass(paper.type)}`}
                   >
-                    {paper.type === "preprint" ? "arXiv" : paper.venue}
+                    {paper.conferenceBadge || (paper.type === "preprint" ? "arXiv" : paper.venue)}
                   </span>
                   <span className="research-year">{paper.year}</span>
                 </div>
+                {paper.highlight && (
+                  <div className="research-highlight">
+                    {paper.highlight}
+                  </div>
+                )}
                 <h3 className="research-paper-title">{paper.title}</h3>
-                <p className="research-authors">{paper.authors}</p>
+                <p
+                  className="research-authors"
+                  dangerouslySetInnerHTML={{
+                    __html: paper.authors.replace(
+                      /Merveilles Agbeti-Messan/gi,
+                      "<strong>Merveilles AGBETI-MESSAN</strong>"
+                    ),
+                  }}
+                />
                 <div className="research-venue">
                   <span>{paper.venue}</span>
                   {paper.arxivId && (

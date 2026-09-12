@@ -38,6 +38,10 @@
     "title": "News",
     "items": [
       {
+        "date": "Sept. 2026",
+        "text": "🏆 Best Paper Award at ICDAR 2026 for 'A Benchmark of State-Space Models vs. Transformers and BiLSTM-based Models for Historical Newspaper OCR'"
+      },
+      {
         "date": "Jun. 2026",
         "text": "Paper accepted at ICDARW HIP 2026 on Understanding the Structure of Newspaper Images"
       },
@@ -114,6 +118,7 @@
         "year": "2026",
         "arxivId": "2607.15082",
         "arxivUrl": "https://arxiv.org/abs/2607.15082",
+        "conferenceBadge": "ICDAR HIP 2026",
         "type": "preprint",
         "image": "/assets/research/paper3.png"
       },
@@ -125,6 +130,7 @@
         "year": "2026",
         "arxivId": "2606.23524",
         "arxivUrl": "https://arxiv.org/abs/2606.23524",
+        "conferenceBadge": "ICDAR WML 2026",
         "type": "preprint",
         "image": "/assets/research/paper2.png"
       },
@@ -132,11 +138,15 @@
         "id": 1,
         "title": "A Benchmark of State-Space Models vs. Transformers and BiLSTM-based Models for Historical Newspaper OCR",
         "authors": "Merveilles Agbeti-Messan, Pierrick Tranouez, Stéphane Nicolas, Clément Chatelain, Thierry Paquet",
-        "venue": "arXiv preprint",
+        "venue": "ICDAR 2026",
         "year": "2026",
         "arxivId": "2604.00725",
         "arxivUrl": "https://arxiv.org/abs/2604.00725",
-        "type": "preprint",
+        "conferenceUrl": "https://link.springer.com/chapter/10.1007/978-3-032-36023-6_38",
+        "codeUrl": "https://github.com/MarcoPerson/ssm-ocr-benchmark",
+        "conferenceBadge": "ICDAR 2026",
+        "highlight": "🏆 Best Paper Award",
+        "type": "conference",
         "image": "/assets/research/paper1.png"
       }
     ]
