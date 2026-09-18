@@ -15,7 +15,7 @@
       "Additionally, I am passionate about <b>research projects</b> and <b>data science</b>, where I actively explore incorporating <b>machine learning techniques</b> into web development projects."
     ],
     "resumeButton": "Download My Resume",
-    "resumePath": "/assets/5A_CV_Merveilles_AGBETI_MESSAN_English.pdf",
+    "resumePath": "/assets/PHD_CV_English_AGBETI_MESSAN.pdf",
     "imagePath": "/assets/Me2.png",
     "imageAlt": "Me"
   },
@@ -70,6 +70,10 @@
         "text": "Submitted a paper to ICDAR 2026 on State-Space Models for Historical Newspaper OCR."
       },
       {
+        "date": "Jul. 2025",
+        "text": "Attended DeepLearn 2025 Summer School in Porto, Portugal 🇵🇹, exploring recent advances in deep learning research including video generation, low-rank optimization for LLMs, and hyperbolic deep learning."
+      },
+      {
         "date": "Nov. 2024",
         "text": "Started my PhD in Artificial Intelligence at LITIS (Laboratoire d'Informatique, du Traitement de l'Information et des Systèmes), Université de Rouen."
       },
@@ -104,6 +108,10 @@
       {
         "date": "Nov. 2021",
         "text": "Joined Junior INSA Services as Partnership Officer, later becoming IT Department Officer."
+      },
+      {
+        "date": "Sept. 2021",
+        "text": "Started Computer Science Engineering studies at INSA Toulouse."
       }
     ]
   },
